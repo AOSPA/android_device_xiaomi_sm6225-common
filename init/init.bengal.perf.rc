@@ -21,6 +21,10 @@ on boot
     # GPU boost
     chmod 0660 /sys/class/kgsl/kgsl-3d0/min_pwrlevel
 
+    # Enable idle state listener
+    write /sys/class/drm/card0/device/idle_encoder_mask 1
+    write /sys/class/drm/card0/device/idle_timeout_ms 100
+
 on property:sys.boot_completed=1
     # Read only one page at a time
     write /proc/sys/vm/page-cluster 0
