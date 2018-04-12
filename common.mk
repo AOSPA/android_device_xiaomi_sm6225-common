@@ -262,7 +262,8 @@ TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.lmk.filecache_min_kb=153600  \
     ro.lmk.kill_timeout_ms=100 \
-    ro.lmk.stall_limit_critical=40
+    ro.lmk.stall_limit_critical=40 \
+    ro.lmk.use_minfree_levels=true
 
 # Media
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
