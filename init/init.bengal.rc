@@ -45,3 +45,8 @@ on early-boot
 
 on property:ro.boot.hwversion=*
     setprop vendor.boot.hwversion ${ro.boot.hwversion}
+
+on property:persist.vendor.hvdcp_opti.start=1
+    chown root system /sys/class/power_supply/bms/soh
+    chown root system /sys/class/power_supply/bms/esr_actual
+    chown root system /sys/class/power_supply/bms/esr_nominal
