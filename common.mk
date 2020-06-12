@@ -204,6 +204,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
 
 PRODUCT_VENDOR_PROPERTIES += \
     debug.sf.disable_backpressure=1 \
+    debug.sf.disable_client_composition_cache=1 \
     debug.renderengine.backend=skiaglthreaded \
     ro.vendor.display.sensortype=2 \
     vendor.display.idle_time=0 \
