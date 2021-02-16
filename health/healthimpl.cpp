@@ -40,13 +40,17 @@ using ::android::hardware::health::V2_1::IHealth;
 using namespace std::literals;
 
 namespace {
-void qti_healthd_board_init(struct healthd_config *)
+
+constexpr char ucsiPSYName[]{"ucsi-source-psy-soc:qcom,pmic_glink:qcom,ucsi1"};
+
+void qti_healthd_board_init(struct healthd_config *hc)
 {
     int fd;
     unsigned char retries = 75;
     int ret = 0;
     unsigned char buf;
 
+    hc->ignorePowerSupplyNames.push_back(android::String8(ucsiPSYName));
 retry:
     if (!retries) {
         ALOGE("Cannot open battery/capacity, fd=%d\n", fd);
