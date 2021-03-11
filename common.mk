@@ -268,6 +268,10 @@ PRODUCT_VENDOR_PROPERTIES += \
    ro.hardware.vulkan=adreno \
    ro.opengles.version=196610
 
+# GFX
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.config.avoid_gfx_accel=true
+
 # GPS
 LOC_HIDL_VERSION := 4.0
 
