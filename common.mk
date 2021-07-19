@@ -282,6 +282,10 @@ PRODUCT_PACKAGES += \
 
 TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
 
+# LMK
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.lmk.filecache_min_kb=153600
+
 # Media
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     media.aac_51_output_enabled=true \
