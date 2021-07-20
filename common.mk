@@ -205,6 +205,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     debug.sf.disable_backpressure=1 \
     debug.sf.disable_client_composition_cache=1 \
+    debug.sf.layer_caching_active_layer_timeout_ms=1000 \
     debug.renderengine.backend=skiaglthreaded \
     debug.hwui.skia_atrace_enabled=false \
     ro.vendor.display.sensortype=2 \
