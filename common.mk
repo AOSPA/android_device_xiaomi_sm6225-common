@@ -191,6 +191,11 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.dirac.acs.storeSettings=1 \
     persist.dirac.acs.ignore_error=1
 
+# Dex/ART optimization
+PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
+USE_DEX2OAT_DEBUG := false
+
 # Display
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0.vendor \
