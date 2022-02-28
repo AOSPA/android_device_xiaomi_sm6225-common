@@ -353,6 +353,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.radio.force_on_dc=true \
     persist.vendor.radio.mt_sms_ack=30 \
     persist.vendor.radio.process_sups_ind=1 \
+    persist.vendor.radio.redir_party_num=0 \
     ro.vendor.radio.features_common=3 \
     ro.vendor.se.type=HCE,UICC \
     sys.vendor.shutdown.waittime=500
