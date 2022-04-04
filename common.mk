@@ -287,6 +287,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_VENDOR_OVERRIDES += \
     ro.incremental.enable=yes
 
+# Keyguard
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.wm.enable_remote_keyguard_animation=0
+
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/keylayout/,$(TARGET_COPY_OUT_VENDOR)/usr/keylayout)
