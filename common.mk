@@ -283,6 +283,13 @@ PRODUCT_PACKAGES += \
 
 TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
 
+# LMK
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.lmk.log_stats=true \
+    ro.lmk.kill_heaviest_task=true \
+    ro.lmk.kill_timeout_ms=100 \
+    ro.lmk.use_minfree_levels=true
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail_vendor \
