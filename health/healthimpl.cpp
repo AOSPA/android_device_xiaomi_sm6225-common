@@ -67,12 +67,12 @@
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#define LOG_TAG "android.hardware.health@2.1-service.xiaomi"
+#define LOG_TAG "health_impl_qti"
 
 #include <android-base/logging.h>
 #include <health/utils.h>
 #include <health2impl/Health.h>
-#include <log/log.h>
+#include <cutils/klog.h>
 
 using ::android::hardware::health::InitHealthdConfig;
 using ::android::hardware::health::V2_0::Result;
@@ -95,17 +95,17 @@ void qti_healthd_board_init(struct healthd_config *hc)
     hc->ignorePowerSupplyNames.push_back(android::String8(ucsiPSYName));
 retry:
     if (!retries) {
-        ALOGE("Cannot open battery/capacity, fd=%d\n", fd);
+        KLOG_ERROR(LOG_TAG, "Cannot open battery/capacity, fd=%d\n", fd);
         return;
     }
 
     fd = open("/sys/class/power_supply/battery/capacity", 0440);
     if (fd >= 0) {
-        ALOGI("opened battery/capacity after %d retries\n", RETRY_COUNT - retries);
+        KLOG_INFO(LOG_TAG, "opened battery/capacity after %d retries\n", RETRY_COUNT - retries);
         while (retries) {
             ret = read(fd, &buf, 1);
             if(ret >= 0) {
-                ALOGI("Read Batt Capacity after %d retries ret : %d\n", RETRY_COUNT - retries, ret);
+                KLOG_INFO(LOG_TAG, "Read Batt Capacity after %d retries ret : %d\n", RETRY_COUNT - retries, ret);
                 close(fd);
                 return;
             }
@@ -114,7 +114,7 @@ retry:
             usleep(100000);
         }
 
-        ALOGE("Failed to read Battery Capacity ret=%d\n", ret);
+        KLOG_ERROR(LOG_TAG, "Failed to read Battery Capacity ret=%d\n", ret);
         close(fd);
         return;
     }
