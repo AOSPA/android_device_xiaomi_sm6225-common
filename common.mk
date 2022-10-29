@@ -206,6 +206,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     debug.sf.disable_backpressure=1 \
     debug.sf.disable_client_composition_cache=1 \
     debug.renderengine.backend=skiaglthreaded \
+    debug.hwui.skia_atrace_enabled=false \
     ro.vendor.display.sensortype=2 \
     vendor.display.idle_time=0 \
     vendor.display.idle_time_inactive=0 \
