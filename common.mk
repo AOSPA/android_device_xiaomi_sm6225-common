@@ -386,7 +386,7 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.data.iwlan.enable=true \
-    persist.vendor.radio.add_power_save=1 \
+    persist.vendor.radio.add_power_save=0 \
     persist.vendor.radio.atfwd.start=true \
     persist.vendor.radio.enable_temp_dds=true \
     persist.vendor.radio.force_on_dc=true \
