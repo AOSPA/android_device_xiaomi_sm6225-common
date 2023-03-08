@@ -89,7 +89,7 @@ on boot
 on charger
     start mi_thermald
     chown system system /sys/class/backlight/panel0-backlight/brightness
-    
+
 service mi_thermald /system/vendor/bin/mi_thermald
     class main
     user root
@@ -105,3 +105,13 @@ service vendor.camera-provider-2-4 /vendor/bin/hw/android.hardware.camera.provid
     ioprio rt 4
     capabilities SYS_NICE
     writepid /dev/cpuset/camera-daemon/tasks /dev/stune/foreground/tasks
+
+service vendor.goodix-events /vendor/bin/init.goodix.events.sh
+    class late_start
+    user root
+    group root system input
+    disabled
+    oneshot
+
+on property:sys.boot_completed=1
+    start vendor.goodix-events

@@ -55,6 +55,12 @@ prebuilt_etc {
 }
 
 sh_binary {
+    name: "init.goodix.events.sh",
+    src: "init.goodix.events.sh",
+    vendor: true,
+}
+
+sh_binary {
     name: "init.qti.dcvs.sh",
     src: "init.qti.dcvs.sh",
     vendor: true,
