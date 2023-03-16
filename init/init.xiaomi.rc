@@ -37,7 +37,7 @@ on post-fs-data
     # for proximity sensor
     chmod 0644 /dev/elliptic0
     chmod 0644 /dev/elliptic1
-
+    
     # add for mishow
     chmod 0777 /sys/class/power_supply/battery/input_suspend
     chown system system /sys/class/power_supply/battery/input_suspend
@@ -93,27 +93,6 @@ service mi_thermald /system/vendor/bin/mi_thermald
     class main
     user root
     group system
-
-service stflashtool /vendor/bin/STFlashTool
-    class late_start
-    group nfc
-    user nfc
-    disabled
-    oneshot
-
-service nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.st
-    override
-    class hal
-    user nfc
-    group nfc
-    disabled
-
-on post-fs && property:ro.boot.hwname=spesn
-    start stflashtool
-    setprop ro.vendor.se.type HCE,UICC
-
-on boot && property:ro.boot.hwname=spesn
-    start nfc_hal_service
 
 service vendor.camera-provider-2-4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
      override
