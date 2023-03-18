@@ -284,9 +284,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf
 
 # Health
-PRODUCT_PACKAGES += \
-    android.hardware.health@2.1-impl-qti \
-    android.hardware.health@2.1-service
+$(call inherit-product, vendor/qcom/opensource/healthd-ext/health-vendor-product.mk)
 
 # IDC
 PRODUCT_COPY_FILES += \
