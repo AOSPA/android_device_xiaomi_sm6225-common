@@ -28,6 +28,8 @@ on post-fs-data
     chmod 0777 /mnt/vendor/persist/camera
     chmod 0644 /mnt/vendor/persist/camera/rear_dc_cal_wd.bin
     chmod 0644 /mnt/vendor/persist/camera/rear_dc_cal_wu.bin
+    chmod 0777 /data/vendor/camera
+    chmod 0666 /data/vendor/camera/com.xiaomi.dcal.wd.data
 
     # M376 add for cit lcdtest
     chmod 0666 /sys/class/backlight/panel0-backlight/brightness
