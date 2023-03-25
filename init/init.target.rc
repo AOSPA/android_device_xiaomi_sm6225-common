@@ -101,7 +101,7 @@ on charger
     start vendor.power_off_alarm
     setprop vendor.usb.controller 4e00000.dwc3
     setprop sys.usb.configfs 1
-    
+
 service charger /system/bin/chargeonlymode
     override
     class charger
