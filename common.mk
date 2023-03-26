@@ -21,9 +21,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
-# Inherit from vendor
-$(call inherit-product, vendor/xiaomi/sm6225-common/sm6225-common-vendor.mk)
-
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
@@ -509,3 +506,6 @@ PRODUCT_VENDOR_PROPERTIES += \
 # Zygote
 PRODUCT_SYSTEM_PROPERTIES += \
     zygote.critical_window.minute=10
+
+# Inherit from vendor
+$(call inherit-product, vendor/xiaomi/sm6225-common/sm6225-common-vendor.mk)
