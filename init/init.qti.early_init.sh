@@ -42,7 +42,7 @@ elif [ "$soc_id" -eq 417 ]; then
     setprop ro.vendor.qti.soc_model SM4250
 elif [ "$soc_id" -eq 441 ]; then
     setprop ro.vendor.qti.soc_model SM4125
-elif [ "$soc_id" -eq 518 ] || [ "$soc_id" -eq 561 ]; then
+elif [ "$soc_id" -eq 518 ]; then
     setprop ro.vendor.qti.soc_model SM6225
 elif [ "$soc_id" -eq 469 ]; then
     setprop ro.vendor.qti.soc_model QCM4290
@@ -58,4 +58,7 @@ elif [ "$soc_id" -eq 498 ]; then
     setprop ro.vendor.qti.soc_model QCS6490
 elif [ "$soc_id" -eq 585 ]; then
     setprop ro.vendor.qti.soc_model SG4150P
+    setprop vendor.audio.gaming.enabled true
+elif [ "$soc_id" -eq 586 ]; then
+    setprop ro.vendor.qti.soc_model QCM4325
 fi
