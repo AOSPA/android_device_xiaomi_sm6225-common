@@ -23,3 +23,10 @@ libwa_depth.so 64
 
 libmpbase.so
 libalCFR.so
+
+# LA.VENDOR.13.2.1.r1-06400-DIVAR.0
+libvraudio_client.qti.so
+libqvrservice_client.qti.so
+libqvrcamera_client.qti.so
+libbinauralrenderer_wrapper.qti.so
+libhoaeffects.qti.so
