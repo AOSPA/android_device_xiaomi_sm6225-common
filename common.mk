@@ -296,15 +296,10 @@ PRODUCT_SYSTEM_PROPERTIES += \
     ro.lmk.stall_limit_critical=40
 
 # Media
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml
-
-PRODUCT_ODM_PROPERTIES += \
-    media.settings.xml=/vendor/etc/media_profiles_khaje.xml \
-    vendor.mm.enable.qcom_parser=63963135
+PRODUCT_PACKAGES += \
+    libsfplugin_ccodec_utils.vendor
 
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    debug.stagefright.omx_default_rank=0 \
     media.aac_51_output_enabled=true \
     media.stagefright.enable-aac=true \
     media.stagefright.enable-fma2dp=true \
@@ -314,6 +309,9 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     media.stagefright.enable-scan=true \
     mmp.enable.3g2=true \
     persist.mm.enable.prefetch=true
+
+PRODUCT_VENDOR_PROPERTIES += \
+    debug.stagefright.omx_default_rank=0
 
 # Netflix
 PRODUCT_SYSTEM_PROPERTIES += \
