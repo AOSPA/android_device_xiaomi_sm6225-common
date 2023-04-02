@@ -285,13 +285,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_VENDOR_OVERRIDES += \
     ro.incremental.enable=yes
 
-# Keyhandler
-PRODUCT_PACKAGES += \
-    KeyHandler
-
 # Keylayout
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/keylayout/,$(TARGET_COPY_OUT_VENDOR)/usr/keylayout)
 
 # LMK
 PRODUCT_SYSTEM_PROPERTIES += \
