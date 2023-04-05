@@ -363,7 +363,8 @@ PRODUCT_PACKAGES += \
     ueventd.bengal.rc
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init/init.recovery.qcom.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.qcom.rc
+    $(LOCAL_PATH)/init/init.recovery.qcom.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.qcom.rc \
+    $(LOCAL_PATH)/init/init.qcom.early_boot.legacy.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.early_boot.legacy.sh
 
 # QC common
 TARGET_BOARD_PLATFORM := bengal
