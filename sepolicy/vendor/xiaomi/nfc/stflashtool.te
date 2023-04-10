@@ -4,5 +4,7 @@ type stflashtool_exec, exec_type, vendor_file_type, file_type;
 init_daemon_domain(stflashtool)
 
 allow stflashtool nfc_device:chr_file {ioctl read write getattr lock append map open watch watch_reads};
+allow stflashtool vendor_nfc_nq_prop:file {read getattr open map};
+
 get_prop(stflashtool, vendor_radio_prop)
 set_prop(stflashtool, vendor_nfc_nq_prop)
