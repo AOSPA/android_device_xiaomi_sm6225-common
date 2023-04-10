@@ -10,6 +10,9 @@ allow hal_audio_default audio_socket:sock_file rw_file_perms;
 # Allow Audio hal to find system_suspend_hwservice
 allow hal_audio_default system_suspend_hwservice:hwservice_manager find;
 
+# Allow hal_audio_default to access sensor service
+allow hal_audio_default fwk_sensor_hwservice:hwservice_manager find;
+
 # Allow Audio hal to set audio properties
 set_prop(hal_audio_default, vendor_audio_prop)
 
