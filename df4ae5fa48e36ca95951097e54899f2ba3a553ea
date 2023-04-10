@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8eb4884b_45f5a416",
+        "filename": "sepolicy/vendor/qcom/init_shell.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000548
+      },
+      "writtenOn": "2023-04-10T16:11:52Z",
+      "side": 1,
+      "message": "that is wildly insecure and goes against why selinux exists...",
+      "revId": "df4ae5fa48e36ca95951097e54899f2ba3a553ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
