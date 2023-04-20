@@ -1,4 +1,4 @@
-# LA.UM.9.15.2.r1-06000-KAMORTA.QSSI-13.0 blobs from bengal
+# LA.UM.9.15.2.r1-06600-KAMORTA.QSSI-13.0 blobs from bengal
 # LA.VENDOR.1.0.r1-15600-WAIPIO blobs from taro
 
 # ACDB - from LA.VENDOR.1.0.r1-15600-WAIPIO
@@ -168,6 +168,10 @@ vendor/lib64/libqdi.so|509303942da015ac76166f8ce684487ec5e05c1e
 vendor/lib64/libqdp.so|a5fa81e178350744d829fc3e5b59512e9c418920
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so|861c72278b358e4428963960f3e95c90b30b344b
 
+# Diag - from LA.UM.9.15.2.r1-06600-KAMORTA.QSSI-13.0
+vendor/lib/libdiag.so|490179225109f3e1c9e246bb2bbb8b2a29188ae2
+vendor/lib64/libdiag.so|7e02776d0247553584f6c0dbc3a83df7458cf161
+
 # Display - from LA.UM.9.15.2.r1-06600-KAMORTA.QSSI-13.0
 vendor/bin/ppd|c478fa8957564bf1b2649b6ba80c07f72b0b318f
 vendor/bin/qdcmss|536c34abfbf7833df440bfcd264bacdc88318067
@@ -187,11 +191,31 @@ vendor/lib64/vendor.display.color@1.4.so|ff2233791d4e2c5c0da0f194546c42fc0eb6816
 vendor/lib64/vendor.display.color@1.5.so|de239337ad42863e5eabeff196b20345d0dce00c
 vendor/lib64/vendor.display.postproc@1.0.so|e94ad60150b7b6b1c09133c03341044a32cdfde7
 
-# DPM from LA.UM.9.15.2.r1-06600-KAMORTA.QSSI-13.0
+# DPM - from LA.UM.9.15.2.r1-06600-KAMORTA.QSSI-13.0
 vendor/bin/dpmQmiMgr|df41c54776abef6edb12b1cd6d250abf5ea6c0a5
 vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|ad06856903b163a28135d6c8fd354258e3f0292c
 vendor/lib64/libdpmqmihal.so|67a75d6bd39f4bc825e14d21fa5b61e26ac82b22
+
+# DRM - from LA.UM.9.15.2.r1-06600-KAMORTA.QSSI-13.0
+vendor/bin/qseecomd|e7f2f39f0ee6fa15c53ac21f4b94081ef693bde2
+vendor/etc/init/qseecomd.rc|0ebfb7c5d1d2459be4fdac951a182dc486f3bda7
+vendor/lib64/libGPreqcancel.so|b9efbc8623981e1249ad0a0f8964b2b655d2b334
+vendor/lib64/libGPreqcancel_svc.so|fe6c2e452c3e26f3d91b41c08188db56a96e96b2
+vendor/lib64/libQSEEComAPI.so|18d81661d36e5622bda9d5ab5ec0e8bc7b4964b0
+vendor/lib64/libbase64.so|bcba077148d981308a444a7b334fa18130eae545
+vendor/lib64/libcpion.so|8a63f2c0e508105cfe3808d2319591fceb841b49
+vendor/lib64/libdrmfs.so|6a5a11ff9adc9e1c8fa7b4f0252fab40c90495d4
+vendor/lib64/libdrmtime.so|621b8dc9b3754888a7879818cd7ec2a7d90bd35b
+vendor/lib64/libops.so|4c216b173e52b25d43ab5a3799541f249cdac318
+vendor/lib64/libqisl.so|c79719eebc094c2af9561e8df2c158638b111b70
+vendor/lib64/librpmb.so|0a729ec391f6a571196fd78e450f3c8845779356
+vendor/lib64/libssd.so|dd18a5c96b9898efde6dfdc7d6cae7215b805a9d
+vendor/lib64/libtzdrmgenprov.so|748f95cad7bd8dca03de29db6fc6bd328be4ad0d
+
+# DRM Widevine  - from LA.UM.9.15.2.r1-06600-KAMORTA.QSSI-13.0
+vendor/lib64/libminkdescriptor.so|7237570df0118124564a85a34a387e9cba7e3cd3
+vendor/lib64/libtrustedapploader.so|030366cf9b29f9beacea371f1c2a8781664be851
 
 # EmbmsslServer - from LA.UM.9.15.2.r1-06600-KAMORTA.QSSI-13.0
 vendor/bin/embmsslServer|35b209c57e7ccd2eac19a3c91851d41ab63af3c9
@@ -258,6 +282,7 @@ vendor/lib64/liblocationservice.so|c66450ec64f394ff9c15d7bb101b47cdceed8b8f
 vendor/lib64/liblocationservice_glue.so|5087838ca49c474063785ad361d35f2cead2c873
 vendor/lib64/liblowi_client.so|cfb59ada90506bf10e7633d73c16bf918e1ae356
 vendor/lib64/liblowi_wifihal.so|0bff4fdb0d49c2854a7f2bb26de201bfecd54166
+vendor/lib64/libminksocket.so|6629b78ab61916acd6e8f879cc0e2b246ec00ef9
 vendor/lib64/libqcc_file_agent.so|0345fc438536bc11f3e65999e0b750efb19ba9f9
 vendor/lib64/libslimclient.so|60252c9982551dd766cbbff247dc82767f63a4c8
 vendor/lib64/libsynergy_loc_api.so|753ab01d54293bee0f24a6e5613447f9f19fc0e1
@@ -612,9 +637,14 @@ vendor/bin/tloc_daemon|4b74a8b23a9a9a6f0c4b43e9cfe8e78ca74fdc30
 vendor/etc/init/tloc_daemon.rc|9dd38e92847bc34f8a3228f4cd81ef14b6e89785
 
 # Trusted Execution Environment connector - from LA.UM.9.15.2.r1-06600-KAMORTA.QSSI-13.0
+vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|4167b12a9f09c52a4dc1555f243dec17051b8a23
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|c966350ee67d3a7c73ca7184e3725264025d16f5
 vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|b92070d73c9963c985d71c7f69ebc9f418c7d07d
+vendor/lib64/libGPQTEEC_vendor.so|d70f659c06a38dbae028f41ca6e0dece0ef1d5cd
+vendor/lib64/libGPTEE_vendor.so|92c0215dbd3271e597d536c259df44aac716a402
 vendor/lib64/libQTEEConnector_listener.so|a05a271a35ff4f558f4665b4467b5eb66f56716b
+vendor/lib64/libQTEEConnector_vendor.so|30e5fd8d4fff50083f44f6d0bd09f4bd287a8366
+vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|e97b21908ec942b5ea6c78100d46398fe1784d0e
 
 # Trusted User Interface - from LA.UM.9.15.2.r1-06600-KAMORTA.QSSI-13.0
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|772dfdebadcfb9af3e6253fd3baf6d7502394ddd
