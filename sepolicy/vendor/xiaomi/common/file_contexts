@@ -1,5 +1,12 @@
+# DRM
+/persist/fdsd(/.*)?                                            u:object_r:vendor_persist_drm_file:s0
+
 # Files in rootfs
-/avb(/.*)?                                                              u:object_r:avb_file:s0
+/avb(/.*)?                                                     u:object_r:avb_file:s0
+
+# SSR
+/sys/bus/msm_subsys/devices/subsys[0-9]+/name                  u:object_r:vendor_sysfs_ssr:s0
+/sys/bus/msm_subsys/devices/subsys[0-9]+/restart_level         u:object_r:vendor_sysfs_ssr_toggle:s0
 
 # Touch firmware
-/vendor/firmware/Conf_MultipleTest.ini                                  u:object_r:vendor_app_file:s0
+/vendor/firmware/Conf_MultipleTest.ini                         u:object_r:vendor_app_file:s0

@@ -1,4 +1,5 @@
 # Nodes
+/sys/class/backlight(/.*)?                                          u:object_r:vendor_sysfs_graphics:s0
 /sys/devices/platform/soc/[a-f0-9]+.qcom,mdss_mdp/drm/card([0-3])+/card([0-3])+-DSI-1/modes u:object_r:vendor_sysfs_graphics:s0
 /sys/devices/platform/soc/[a-f0-9]+.qcom,mdss_mdp/drm/card([0-3])+/card([0-3])+-DSI-1/status u:object_r:vendor_sysfs_graphics:s0
 /sys/devices/platform/soc/[a-f0-9]+.qcom,mdss_mdp/drm/card([0-3])+/card([0-3])+-DSI-1/disp_param u:object_r:vendor_sysfs_graphics:s0

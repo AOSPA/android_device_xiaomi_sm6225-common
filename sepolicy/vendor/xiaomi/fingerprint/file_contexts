@@ -12,6 +12,10 @@
 /dev/silead_fp                                                          u:object_r:fingerprint_device:s0
 /dev/silead_s*                                                          u:object_r:fingerprint_device:s0
 /dev/spidev.*                                                           u:object_r:fingerprint_device:s0
+/sys/bus/platform/devices/soc:fpc1020/wakeup_enable                     u:object_r:fingerprint_device:s0
+/sys/bus/platform/devices/soc:fpc1020/irq                               u:object_r:fingerprint_device:s0
+/sys/bus/platform/devices/soc:fpc1020/hw_reset                          u:object_r:fingerprint_device:s0
+
 
 # Fingerprint HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.3-service\.xiaomi          u:object_r:hal_fingerprint_default_exec:s0

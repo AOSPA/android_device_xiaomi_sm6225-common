@@ -1,2 +1,5 @@
 # USB
 /vendor/bin/init\.mi\.usb\.sh                 u:object_r:vendor_qti_init_shell_exec:s0
+/sys/devices/platform/soc/4e00000.ssusb/4e00000.dwc3/xhci-hcd.0.auto/usb1/1-1/idVendor    u:object_r:vendor_sysfs_usb_device:s0
+/sys/devices/platform/soc/4e00000.ssusb/4e00000.dwc3/xhci-hcd.0.auto/usb1/1-1/idProduct   u:object_r:vendor_sysfs_usb_device:s0
+/sys/devices/platform/soc/4e00000.ssusb/4e00000.dwc3/xhci-hcd.0.auto/usb1/1-1/version     u:object_r:vendor_sysfs_usb_device:s0
