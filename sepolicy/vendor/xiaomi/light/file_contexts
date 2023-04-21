@@ -2,3 +2,5 @@
 /sys/devices/platform/soc/[a-z0-9]+.qcom,spmi/spmi-[0-1]/spmi0-0[0-9]/[a-z0-9]+.qcom,spmi:qcom,[a-z0-9]+@[0-9]:qcom,leds@d000/leds(/.*)?            u:object_r:sysfs_leds:s0
 /sys/devices/platform/soc/[a-z0-9]+.i2c/i2c-[0-9]/[0-9]-[0-9]+/leds(/.*)?                                                                           u:object_r:sysfs_leds:s0
 /sys/devices/platform/soc/5c1b000.qcom,cci0/5c1b000.qcom,cci0:qcom,camera-flash@0/leds/led:torch/brightness                                         u:object_r:sysfs_leds:s0
+/sys/class/leds/flashlight-back/brightness                                                    u:object_r:sysfs_leds:s0
+/sys/devices/platform/soc/soc:flashlight/leds/flashlight-back/brightness                      u:object_r:sysfs_leds:s0
