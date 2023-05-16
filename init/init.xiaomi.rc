@@ -94,9 +94,21 @@ service mi_thermald /system/vendor/bin/mi_thermald
     class main
     user root
     group system
-
+    
+service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
+    override
+    class hal
+    user audioserver
+    # media gid needed for /dev/fm (radio) and for /data/misc/media (tee)
+    group audio camera drmrpc inet media mediadrm net_bt net_bt_admin net_bw_acct oem_2901 wakelock
+    capabilities BLOCK_SUSPEND
+    ioprio rt 4
+    task_profiles ProcessCapacityHigh HighPerformance
+    socket audio_hw_socket seqpacket 0666 system system
+    onrestart restart audioserver
+    
 service vendor.camera-provider-2-4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
-     override
+    override
     interface android.hardware.camera.provider@2.4::ICameraProvider legacy/0
     interface vendor.qti.hardware.camera.postproc@1.0::IPostProcService camerapostprocservice
     class hal
