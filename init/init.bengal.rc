@@ -12,6 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+on init
+    # DT2W
+    chown system system /proc/tp_gesture
+    chmod 0644 /proc/tp_gesture
+
+    # Bind mount fastrpc_shell_3 for labelling
+    mkdir /mnt/vendor/dsp 0770 root root
+    copy /vendor/dsp/cdsp/fastrpc_shell_3 /mnt/vendor/dsp/fastrpc_shell_3
+    chmod 0644 /mnt/vendor/dsp/fastrpc_shell_3
+    mount none /mnt/vendor/dsp/fastrpc_shell_3 /vendor/dsp/cdsp/fastrpc_shell_3 bind
+    
 on late-fs
     # Start services for bootanim
     start servicemanager
@@ -31,17 +42,6 @@ on early-boot
     write /sys/bus/msm_subsys/devices/subsys5/restart_level RELATED
     write /sys/bus/msm_subsys/devices/subsys6/restart_level RELATED
     write /sys/bus/msm_subsys/devices/subsys7/restart_level RELATED
-
-on init
-    # DT2W
-    chown system system /proc/tp_gesture
-    chmod 0644 /proc/tp_gesture
-
-    # Bind mount fastrpc_shell_3 for labelling
-    mkdir /mnt/vendor/dsp 0770 root root
-    copy /vendor/dsp/cdsp/fastrpc_shell_3 /mnt/vendor/dsp/fastrpc_shell_3
-    chmod 0644 /mnt/vendor/dsp/fastrpc_shell_3
-    mount none /mnt/vendor/dsp/fastrpc_shell_3 /vendor/dsp/cdsp/fastrpc_shell_3 bind
 
 on property:ro.boot.hwversion=*
     setprop vendor.boot.hwversion ${ro.boot.hwversion}
