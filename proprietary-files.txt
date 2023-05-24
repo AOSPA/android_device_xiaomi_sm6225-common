@@ -49,10 +49,6 @@ system_ext/lib64/libozoaudio.so:vendor/lib64/libozoaudio.so|b13304b91911c7bc2f6c
 system_ext/lib64/libozowidening.so:vendor/lib64/libozowidening.so|957d749a4b1c1874124d2fbdf4981e927922bc9e
 system_ext/lib64/soundfx/libozoprocessing.so:vendor/lib64/soundfx/libozoprocessing.so|9c64e82d354978b64dd0006357e704e81c7cc114
 
-# Batterysecret - from SPES MIUI
-vendor/bin/batterysecret|58c75096366cf981b4a1f1cea1f41a392ac0d07b
-vendor/etc/init/init.batterysecret.rc|93b03fe5139f32fa17a006198a55cdc19570b252
-
 # Bluetooth - from SPES MIUI
 system_ext/etc/bluetooth/leaudio_configs.xml|bdf7cee5fe9c322aa9e43e8fc4092c41ff7b4130
 
