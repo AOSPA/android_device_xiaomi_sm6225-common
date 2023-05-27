@@ -49,7 +49,7 @@ property Name is called. -->
                 <Prop Name="ro.lmk.nstrat_psi_complete_ms" Value="70" />
                 <Prop Name="ro.lmk.nstrat_psi_scrit_complete_stall_ms" Value="75" />
                 <Prop Name="ro.lmk.enhance_batch_kill" Value="false" />
-                <Prop Name="ro.lmk.enable_userspace_lmk" Value="false" />
+                <Prop Name="ro.lmk.enable_userspace_lmk" Value="true" />
                 <Prop Name="vendor.perf.gestureflingboost.enable" Value="true" />
                 <Prop Name="ro.vendor.at_library" Value="libqti-at.so" />
                 <Prop Name="vendor.perf.bgt.enable" Value="true" />
