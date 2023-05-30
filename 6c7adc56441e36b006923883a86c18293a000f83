@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a1dfdfb8_8b16ab41",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2023-05-30T06:58:50Z",
+      "side": 1,
+      "message": "Afaik this does not exist on 4.14 and above; please check QCACLD definitions",
+      "revId": "6c7adc56441e36b006923883a86c18293a000f83",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
