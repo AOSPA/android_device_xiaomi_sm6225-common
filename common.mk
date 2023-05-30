@@ -295,10 +295,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml
 
+# Phantom process monitoring
+PRODUCT_PRODUCT_PROPERTIES += \
+    sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # Public libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
-    
+
 # Rootdir / Init files
 PRODUCT_PACKAGES += \
     init.qti.dcvs.sh \
