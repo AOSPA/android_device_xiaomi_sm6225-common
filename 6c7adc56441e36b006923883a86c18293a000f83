@@ -34,6 +34,23 @@
       "parentUuid": "a1dfdfb8_8b16ab41",
       "revId": "6c7adc56441e36b006923883a86c18293a000f83",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "def3c200_2ac4ff7c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2023-05-31T14:11:55Z",
+      "side": 1,
+      "message": "Do check once. AFAIK this does not really have correlation with Deep Sleep. You can check wakelocks that are held using FKM and look for the actual cause. Please do report if you find otherwise.",
+      "revId": "6c7adc56441e36b006923883a86c18293a000f83",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
