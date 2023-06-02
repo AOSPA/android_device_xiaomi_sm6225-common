@@ -40,15 +40,30 @@ vendor/etc/ftm_test_config_bengal-scubaqrd-snd-card|4d4267fae191c952e0904b9977ba
 
 # Audio FX - from SPES MIUI
 vendor/lib/soundfx/libasphere.so|b2daeb875914a33575c7d7a67429f25d09d35489
-vendor/lib/soundfx/libmisoundfx.so|460208c6ac74b2f79ae2cb064ddbdb1c25ce0e33
+vendor/lib/soundfx/libmisoundfx.so|574fe1c32791ce56fe0bcf11174afd642a3060e6
 vendor/lib/soundfx/libqcbassboost.so|cc5ec98ec56b02bdb9f6b1de0a2a4e0f2b18c315
 vendor/lib/soundfx/libqcreverb.so|ee603092ab4e939eb289d35a17bddd37f7f9835f
 vendor/lib/soundfx/libqcvirt.so|67da89cce00148dddeb4991697c9773376e39d8b
 vendor/lib/soundfx/libshoebox.so|214d5fefd21c617bdfa05255fe667127b4242556
 
+# Audio FX OzoAudio - from SPES MIUI
+system_ext/lib/libav_ozodecoder.so:vendor/lib/libav_ozodecoder.so|32b76b28af36c48439b96e43028d13bec2def9a9
+system_ext/lib/libav_ozoencoder.so:vendor/lib/libav_ozoencoder.so|85f4f43e248c692a87a5be10ed8bc343d6eb043b
+system_ext/lib/libozoaudio.so:vendor/lib/libozoaudio.so|f7a9df3949ab575448b8140dde70ae2acb397607
+system_ext/lib/libozowidening.so:vendor/lib/libozowidening.so|49c7d0dcf08ebacd84ee65644b7eaea6d566785a
+system_ext/lib/soundfx/libozoprocessing.so:vendor/lib/soundfx/libozoprocessing.so|c6cf42c41ffbf30b293d49aa54d4383b31ffd8b7
+system_ext/lib64/libav_ozodecoder.so:vendor/lib64/libav_ozodecoder.so|441b460e42aec6f3d9a8e81d20a51cefc2cfa510
+system_ext/lib64/libav_ozoencoder.so:vendor/lib64/libav_ozoencoder.so|f7acc9859603106ffe112cabfac054399b22e1a4
+system_ext/lib64/libozoaudio.so:vendor/lib64/libozoaudio.so|b13304b91911c7bc2f6c0e4c6e09b0a8b4dc94bf
+system_ext/lib64/libozowidening.so:vendor/lib64/libozowidening.so|957d749a4b1c1874124d2fbdf4981e927922bc9e
+system_ext/lib64/soundfx/libozoprocessing.so:vendor/lib64/soundfx/libozoprocessing.so|9c64e82d354978b64dd0006357e704e81c7cc114
+
 # Batterysecret - from SPES MIUI
 vendor/bin/batterysecret|58c75096366cf981b4a1f1cea1f41a392ac0d07b
 vendor/etc/init/init.batterysecret.rc|93b03fe5139f32fa17a006198a55cdc19570b252
+
+# Bluetooth - from SPES MIUI
+system_ext/etc/bluetooth/leaudio_configs.xml|bdf7cee5fe9c322aa9e43e8fc4092c41ff7b4130
 
 # Bluetooth - from LA.UM.9.15.2.r1-06600-KAMORTA.QSSI-13.0
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|b0f73b4ac1a88607ec90b514b9602de423bb9be6
