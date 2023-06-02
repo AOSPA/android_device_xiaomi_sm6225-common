@@ -355,8 +355,22 @@
              Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="scuba"
              Resources="0x40800000, 1056" />
          <Config
-             Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="khaje"
-             Resources="0x40800000, 1766, 0x40800100, 1516" />
+             Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="khaje" Fps="60"
+            Resources="0x41000000, 0x3, 0x41800000, 0x26, 0x40800000, 1344, 0x40800100, 1190, 
+                       0x40C00000, 2, 0x40C74000, 0xF0, 0x40408000, 0x27, 0x42804000, 0" />
+
+        <!-- MIN_ONLINE_CPU_CLUSTER_BIG resource opcode, value-->
+        <!-- CPUBW_MIN_FREQ resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ BIG CORE resource opcode, value -->
+        <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value -->
+        <!-- SCHEDBOOST resource opcode, value-->
+        <!-- SCHED_BUSY_HYSTERSIS_CPU_MASK resource opcode, value-->
+        <!-- LPM Bias resource opcode, value-->
+        <!-- GPU_MIN_POWER_LEVEL resource opcode,value-->
+        <Config
+            Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="khaje" Fps="90"
+            Resources="0x41000000, 0x3, 0x41800000, 0x26, 0x40800000, 1766, 0x40800100, 1516,
+                       0x40C00000, 2, 0x40C74000, 0xF0, 0x40408000, 0x27, 0x42804000, 0" />
 
         <!-- CPUBOOST_MIN_FREQ BIG CORE resource opcode, value -->
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value -->
