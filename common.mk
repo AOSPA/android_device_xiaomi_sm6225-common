@@ -307,9 +307,6 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/keylayout/,$(TARGET_COPY_OUT_VENDOR)/usr/keylayout)
 
 # Media
-PRODUCT_ODM_PROPERTIES += \
-    media.settings.xml=/vendor/etc/media_profiles_khaje.xml
-
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     debug.stagefright.omx_default_rank=0 \
     media.aac_51_output_enabled=true \
