@@ -1,5 +1,4 @@
 # Camera
-persist.camera.                                 u:object_r:vendor_camera_prop:s0
 persist.vendor.camera                           u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.mi.dualcal.               u:object_r:vendor_camera_prop:s0
 ro.vendor.camera.                               u:object_r:vendor_camera_prop:s0
