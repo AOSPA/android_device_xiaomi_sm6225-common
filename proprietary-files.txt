@@ -15,15 +15,6 @@ vendor/etc/acdbdata/bengal_scubaqrd/QRD_scuba_workspaceFileXml.qwsp|82216a3aaf9e
 vendor/bin/loadalgo|7d3f0eda9dc6abf3973233dd10f7ef2529182b9c
 vendor/lib64/libloadalgo_stub.so|f544ef182d9cdc77e02eb8cc2a29ce4c02d0ddfc
 
-# Alarm - from LA.UM.9.15.2.r1-06600-KAMORTA.QSSI-13.0
--product/app/PowerOffAlarm/PowerOffAlarm.apk|bc906abd03e4a243201dde626b6580fd8a4f73ce
--system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar|6508f5708221399eb8bd9754dc49bad32a911e27
-vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|6446a38537ceb4afdc2cdbbd7645e2616842ba6a
-vendor/bin/power_off_alarm|71e47e029ad444494c286dcd655f534c033a7ab1
-vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6ffb466e23a7fc3b05
-vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|c2b6cd79a2fdc28ea10dd3d357ffd14235222a7d
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so|0156ca3b7ace0ea604d8ec4b5ed8cfb39482dd28
-
 # ANT+ - from LA.UM.9.15.2.r1-06600-KAMORTA.QSSI-13.0
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so|ecdf9f24262c49031c470b14a27d3f99d2b47ff4
 
