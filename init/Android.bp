@@ -48,9 +48,9 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "ueventd.bengal.rc",
+    name: "ueventd.xiaomi.rc",
     filename: "ueventd.rc",
-    src: "ueventd.bengal.rc",
+    src: "ueventd.xiaomi.rc",
     device_specific: true,
 }
 

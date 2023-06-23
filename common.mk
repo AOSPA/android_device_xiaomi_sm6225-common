@@ -359,7 +359,7 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.xiaomi.fingerprint.rc \
     init.xiaomi.rc \
-    ueventd.bengal.rc
+    ueventd.xiaomi.rc
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.recovery.qcom.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.qcom.rc
