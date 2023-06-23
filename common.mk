@@ -22,6 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # A/B
+ifeq ($(TARGET_IS_VAB),true)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/android_t_baseline.mk)
 PRODUCT_VIRTUAL_AB_COMPRESSION_METHOD := gz
 
@@ -40,6 +41,17 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
+
+PRODUCT_PACKAGES += \
+    android.hardware.boot@1.2-impl-qti \
+    android.hardware.boot@1.2-impl-qti.recovery \
+    android.hardware.boot@1.2-service
+
+PRODUCT_PACKAGES += \
+    update_engine \
+    update_engine_sideload \
+    update_verifier
+endif
 
 # Attestation
 PRODUCT_COPY_FILES += \
@@ -132,12 +144,6 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.qcom.bluetooth.soc=cherokee \
     persist.vendor.qcom.bluetooth.twsp_state.enabled=false \
     ro.vendor.bluetooth.wipower=false
-
-# Boot control HAL
-PRODUCT_PACKAGES += \
-    android.hardware.boot@1.2-impl-qti \
-    android.hardware.boot@1.2-impl-qti.recovery \
-    android.hardware.boot@1.2-service
 
 # Camera
 $(call inherit-product-if-exists, device/xiaomi/sm6225-common-miuicamera/config.mk)
@@ -451,12 +457,6 @@ PRODUCT_VENDOR_PROPERTIES += \
 # Time-services
 PRODUCT_VENDOR_PROPERTIES += \
     persist.timed.enable=true
-
-# Update Engine
-PRODUCT_PACKAGES += \
-    update_engine \
-    update_engine_sideload \
-    update_verifier
 
 # USB
 PRODUCT_COPY_FILES += \
