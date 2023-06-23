@@ -6,9 +6,11 @@
 /data/vendor/fpdump(/.*)?                                               u:object_r:fingerprint_vendor_data_file:s0
 /data/vendor/silead(/.*)?                                               u:object_r:vendor_fingerprint_data_file:s0
 /persist/silead(/.*)?                                                   u:object_r:vendor_fingerprint_data_file:s0
+/data/vendor/focaltech(/.*)?                                            u:object_r:fingerprint_vendor_data_file:s0
 /sys/devices/platform/soc/soc:fpc1020(/.*?)                             u:object_r:vendor_sysfs_fps_attr:s0
 
 # Fingerprint devices
+/dev/focaltech_fp                                                       u:object_r:fingerprint_device:s0
 /dev/goodix_fp                                                          u:object_r:fingerprint_device:s0
 /dev/silead_fp                                                          u:object_r:fingerprint_device:s0
 /dev/silead_s*                                                          u:object_r:fingerprint_device:s0
