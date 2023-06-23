@@ -2,6 +2,7 @@ on post-fs-data
     mkdir /data/vendor/fpc 0770 system system
     mkdir /data/vendor/goodix 0770 system system
     mkdir /data/vendor/silead 0777 system system
+    mkdir /data/vendor/focaltech 0770 system system
 
 on boot
     chown system system /sys/bus/platform/devices/soc:fpc1020/irq
@@ -14,6 +15,7 @@ on boot
     chmod 0660 /sys/bus/platform/devices/soc:fpc1020/compatible_all
     chmod 0777 /dev/goodix_fp
     chmod 0777 /dev/silead_fp
+    chmod 0777 /dev/focaltech_fp
 
     mkdir /mnt/vendor/persist/goodix 0770 system system
 
@@ -24,6 +26,9 @@ on init
     chown system system /dev/silead_fp
     chmod 0644 /dev/silead_fp
     
+    chown system system /dev/focaltech_fp
+    chmod 0644 /dev/focaltech_fp
+
     chmod 0220 /sys/bus/platform/devices/soc/soc:fpc1020/fingerdown_wait
 
     chown system system /sys/bus/platform/devices/soc/soc:fpc1020/fingerdown_wait
