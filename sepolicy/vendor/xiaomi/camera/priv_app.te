@@ -1,0 +1,1 @@
+allow priv_app hal_xiaomi_camera_hwservice:hwservice_manager find;
