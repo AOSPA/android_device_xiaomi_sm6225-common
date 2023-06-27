@@ -198,7 +198,6 @@ vendor/lib64/libdisp-aba.so|894b0fe1ace5effb471ebb7437cd590a096e47d8
 vendor/lib64/libdpps.so|aded45bfd6df995e72342f7f4fa6f79dc0c6f226
 vendor/lib64/libmm-hdcpmgr.so|bacafd357b847581239b6d57f733404f6fb94ecc
 vendor/lib64/librcmask.so|c0c6d49dae38389532cfb3cb0b816dc0b1b71051
-vendor/lib64/libsdedrm.so|34e9f34b280f310118ea2b37e11e96d9440f3632
 vendor/lib64/vendor.display.color@1.0.so|f1f7d91884c8e3c9ea300e67f5df91057094de40
 vendor/lib64/vendor.display.color@1.1.so|e7ab973147c3e03e31efacee13e8d8a9c841eb7b
 vendor/lib64/vendor.display.color@1.2.so|fe9ec904459b7675297e5ef6883ae98b438fb77f
@@ -271,9 +270,7 @@ vendor/lib64/vendor.qti.hardware.factory@1.1.so|845ecda4dfe0b2a0fded2d944c12f5ac
 
 # FM - from LA.UM.9.15.2.r1-06600-KAMORTA.QSSI-13.0
 vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|70aef41d8ced7832afc90dcf4ea83623e5e1c265
-vendor/lib/vendor.qti.hardware.fm@1.0.so|c036fbe16575a800994792431d10f6d1173cea26
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|084154df521025d3d6b4402cd8edcd06510e169c
-vendor/lib64/vendor.qti.hardware.fm@1.0.so|2f01b221540ba0c75b34f373b0b1201f10f9f8c0
 
 # Graphics Adreno - from LA.UM.9.15.2.r1-06600-KAMORTA.QSSI-13.0
 vendor/lib/egl/eglSubDriverAndroid.so|1a1c287a32095bede1cd199594cb7fb89c1c15d0
@@ -376,53 +373,37 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0.so|6d4b854e7ba91ef98398568c365a131cf4c
 
 # Media - from LA.UM.9.15.2.r1-06600-KAMORTA.QSSI-13.0
 vendor/lib/libOmxAacDec.so|8dc1526e4d03d7f8e986ac47bb278ced46a47cbd
-vendor/lib/libOmxAacEnc.so|195cc9df42fcb73c0f6ce7e8abc5f4d8f7a54aae
 vendor/lib/libOmxAlacDec.so|6b6dc686111455e416fd18e45a054950a96f3a46
 vendor/lib/libOmxAlacDecSw.so|be917abb87f621c8d721a03ed42016ae12bdbf8a
 vendor/lib/libOmxAmrDec.so|c38adcb3abf79d850234a9341b4cdef56836598d
-vendor/lib/libOmxAmrEnc.so|47b4d212c8a018a0950ca064e8ebb9197151d190
 vendor/lib/libOmxAmrwbplusDec.so|dda78afac90e680d812afdf2c0154d1ac65ddfc0
 vendor/lib/libOmxApeDec.so|4349cf0130abc901d24df2f275e615b255099354
 vendor/lib/libOmxApeDecSw.so|a0980f890bfa7a04c4af2e3d40e176e7d7bbf693
-vendor/lib/libOmxCore.so|5288e62922786ea87edef286ab02ef047c8ce26b
 vendor/lib/libOmxDsdDec.so|93832f5a8e016a0cd419fca916f29a7987d4af9e
 vendor/lib/libOmxEvrcDec.so|ab7eeb40e7fd5c25d0e983b2a0bace0c869c7eef
-vendor/lib/libOmxEvrcEnc.so|b1d8bfe7c4c070d9c88a3df23995d3c5afd3f57d
 vendor/lib/libOmxG711Dec.so|ce37c0b3e3d44daa6d77bb7fc08308a010d28e8c
-vendor/lib/libOmxG711Enc.so|5bbc9c0c66a5cb845237bcd0a86059d16b81d3a0
 vendor/lib/libOmxMpeghDecSw.so|72b6ccb2a5df2ce3d4a926a6f913d922fec233eb
 vendor/lib/libOmxMpeghEncSw.so|440276eed570302cd51048c15005b925b63be97f
 vendor/lib/libOmxQcelp13Dec.so|99f42af2fcb47362cf8353028e50ca48ca862d74
-vendor/lib/libOmxQcelp13Enc.so|627794981d9444b1ff7658f374fa9b59d883111d
 vendor/lib/libOmxSwVdec.so|b2a16a6a49fe7c5d5393729ad508a10069a7372e
 vendor/lib/libOmxSwVencMpeg4.so|2ec5bad668e783a660202f4de99dac891e319c71
-vendor/lib/libOmxVdec.so|44727576d442be083cf154e343c42bc9640b8542
-vendor/lib/libOmxVenc.so|d6966e110068a44f67c9262f24b6d3679e1f4f58
 vendor/lib/libOmxVideoDSMode.so|cc1abafabe250af85057140452018c1fb757481d
 vendor/lib/libOmxWmaDec.so|784d475b6d444b0e8901b700d35981f6358fcfde
 vendor/lib/libdsd2pcm.so|0c58ffeef76c119c349c4ce44c297132369ae08e
 vendor/lib/libmmosal.so|04a064cd6867ebba2c623a84606f76dbeea9d58e
 vendor/lib64/libOmxAacDec.so|2f1054d78b304c9c8154ac2b3e2d36b7ed50c748
-vendor/lib64/libOmxAacEnc.so|b75bb318f4a6e1d4188a10a38a16d72796a616cc
 vendor/lib64/libOmxAlacDec.so|e000dc6994c226dacbdefb004822735183f8c008
 vendor/lib64/libOmxAlacDecSw.so|fbf71a4d4e860a8da29588d18a679418e4317846
 vendor/lib64/libOmxAmrDec.so|98247761923ddc4e7fbec5f65d60872544f64947
-vendor/lib64/libOmxAmrEnc.so|14a0564f7811fba7b1063a4681f833e20ab09e2a
 vendor/lib64/libOmxAmrwbplusDec.so|51441c0c321a0ffbd9bca59b7823e568fbd3869b
 vendor/lib64/libOmxApeDec.so|461d5fb5f637b9f72682b1f1ddbf66073b3b0966
 vendor/lib64/libOmxApeDecSw.so|fae380887e56c4887fddc3925bccaf28b9e3864a
-vendor/lib64/libOmxCore.so|44d6358877e72f419e09369d4cab8902ee52a1c6
 vendor/lib64/libOmxEvrcDec.so|4ffec36b52706783dfa048a8aa01155c88b06a1a
-vendor/lib64/libOmxEvrcEnc.so|3b507ef45b583e0c1193781a178b8d17be6d185a
 vendor/lib64/libOmxG711Dec.so|a793b679401cae65eef10b17537e06a28093f80b
-vendor/lib64/libOmxG711Enc.so|b289c1de2f7c622a50f84bde2883284193b1ec65
 vendor/lib64/libOmxMpeghEncSw.so|0dae5dce34679a23491730579d8d89373ae80d8c
 vendor/lib64/libOmxQcelp13Dec.so|de4b48ea7fdcdc2d74d91489d2d74a1169b76f87
-vendor/lib64/libOmxQcelp13Enc.so|4f973646287e3e0bcf1b38fe5d67705f6b69e782
 vendor/lib64/libOmxSwVdec.so|66db759e223650c383dc870af6a24d088a21c8aa
 vendor/lib64/libOmxSwVencMpeg4.so|e110bc6970879dc32a134986d12d009d69e99605
-vendor/lib64/libOmxVdec.so|32bfada72372d66e6f87256da131ede232490001
-vendor/lib64/libOmxVenc.so|949483e873026e9674945e50cff677ff029555c2
 vendor/lib64/libOmxWmaDec.so|6e06d4f5f4a970860720a9b014de1048f9536749
 vendor/lib64/libmmosal.so|272f56d3ed9750c5636ec38acfdc19a478f8bcc4
 
