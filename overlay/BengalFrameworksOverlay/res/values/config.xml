@@ -305,4 +305,7 @@
          strictly needed. -->
     <bool name="config_sf_limitedAlpha">true</bool>
 
+    <!-- Default value for performant auth feature. -->
+    <bool name="config_performantAuthDefault">true</bool>
+
 </resources>
