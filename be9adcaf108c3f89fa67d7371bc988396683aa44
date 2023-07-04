@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "846b5253_45c6553b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-07-04T19:25:53Z",
+      "side": 1,
+      "message": "generally not needed with qperformance and cpu_boost.  on 845, it\u0027s there for benchmarks that inject touches. this may cause battery drain as well if not implemented correctly.",
+      "revId": "be9adcaf108c3f89fa67d7371bc988396683aa44",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
