@@ -439,6 +439,9 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.sys.binary_xml=false
 
+# Treble
+PRODUCT_FULL_TREBLE_OVERRIDE := true
+
 # Thermal
 PRODUCT_VENDOR_PROPERTIES += \
     vendor.sys.thermal.data.path=/data/vendor/thermal/
