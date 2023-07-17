@@ -218,9 +218,12 @@ PRODUCT_VENDOR_PROPERTIES += \
     debug.sf.layer_caching_active_layer_timeout_ms=1000 \
     debug.hwui.skia_atrace_enabled=false \
     ro.vendor.display.sensortype=2 \
+    ro.vendor.display.svi=1 \
     vendor.display.idle_time=0 \
     vendor.display.idle_time_inactive=0 \
-    vendor.display.qdcm.mode_combine=2
+    vendor.display.qdcm.mode_combine=2 \
+    vendor.display.svi.config=1 \
+    vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
 
 # DPM
 PRODUCT_VENDOR_PROPERTIES += \

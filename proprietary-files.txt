@@ -188,6 +188,9 @@ vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so|861c72278b358e4428963960f
 vendor/lib/libdiag.so|9df9a6213573d51f486f51f2eb60d5dd3750e3fc
 vendor/lib64/libdiag.so|de040436b348059e951fcb9723da4ec31705b064
 
+# Display - from SPES MIUI
+vendor/etc/SVIConfig.xml
+
 # Display - from LA.UM.9.15.2.r1-07000-KAMORTA.QSSI-13.0
 vendor/bin/ppd|c478fa8957564bf1b2649b6ba80c07f72b0b318f
 vendor/bin/qdcmss|536c34abfbf7833df440bfcd264bacdc88318067
