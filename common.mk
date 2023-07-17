@@ -213,9 +213,6 @@ PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0.vendor \
     libdisplayconfig.qti
 
-PRODUCT_SYSTEM_PROPERTIES += \
-    ro.sf.force_hwc_brightness=1
-
 PRODUCT_VENDOR_PROPERTIES += \
     debug.sf.disable_backpressure=1 \
     debug.sf.layer_caching_active_layer_timeout_ms=1000 \
