@@ -21,25 +21,12 @@ property Name is called. -->
                 <Prop Name="vendor.debug.enable.lm" Value="false" />
                 <Prop Name="vendor.iop.enable_uxe" Value="0" />
                 <Prop Name="ro.lmk.enable_preferred_apps" Value="true" />
-                <Prop Name="ro.vendor.perf.enable.prefapps" Value="false" />
-                <Prop Name="ro.vendor.use_perf_hal_for_preferredapps" Value="false" />
-                <Prop Name="ro.vendor.perf.enable.prekill"  Value="true" />
-                <Prop Name="vendor.prekill_MIN_ADJ_to_Kill" Value="800"  />
-                <Prop Name="vendor.prekill_MAX_ADJ_to_Kill" Value="1000"  />
                 <Prop Name="vendor.enable.prefetch" Value="1" />
                 <Prop Name="vendor.iop.enable_prefetch_ofr" Value="0" />
                 <Prop Name="vendor.perf.iop_v3.enable" Value="true" />
                 <Prop Name="vendor.perf.iop_v3.enable.debug" Value="false" />
-                <Prop Name="vendor.iop.enable_speed" Value="false" />
                 <Prop Name="vendor.debug.enable.memperfd" Value="true" />
-                <Prop Name="ro.vendor.perf.enable.procomp" Value="false" />
                 <Prop Name="vendor.perf.pfar.enable" Value="1"/>
-
-                <Prop Name="ro.vendor.perf.ss" Value="false" />
-                <Prop Name="ro.vendor.perf.lal" Value="false" />
-                <Prop Name="ro.vendor.perf.lgl" Value="false" />
-                <Prop Name="ro.vendor.perf.splh" Value="false" />
-                <Prop Name="ro.vendor.perf.lplh" Value="false" />
 
                 <!--System Properties -->
                 <Prop Name="ro.vendor.qti.sys.fw.bservice_age" Value="300000" />
@@ -66,39 +53,6 @@ property Name is called. -->
                 <Prop Name="vendor.perf.bgt.enable" Value="true" />
                 <Prop Name="vendor.perf.performancemode.support" Value="true" Target="khaje" />
 
-                <!--Mention all the target/kernel specific properties at the end of xml file
-                    All the default valuea are kept above-->
-                <Prop Name="ro.vendor.qti.sys.fw.bservice_age" Value="5000" Variant="bengal_32" />
-                <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit" Value="32"  Variant="bengal_32" />
-                <Prop Name="ro.vendor.qti.sys.fw.bservice_limit" Value="5"  Variant="bengal_32" />
-                <Prop Name="ro.lmk.kill_heaviest_task_dup"    Value="false" Variant="bengal_32" />
-                <Prop Name="vendor.iop.enable_uxe"               Value="0"  Variant="bengal_32" />
-                <Prop Name="ro.lmk.enable_preferred_apps"     Value="false" Variant="bengal_32"/>
-                <Prop Name="ro.lmk.psi_window_size_ms"          Value="500" Variant="bengal_32"/>
-                <Prop Name="ro.lmk.psi_poll_period_scrit_ms"    Value="100" Variant="bengal_32"/>
-                <Prop Name="ro.lmk.psi_scrit_complete_stall_ms" Value="85"  Variant="bengal_32"/>
-
-                <Prop Name="ro.vendor.qti.sys.fw.bservice_age" Value="5000" Variant="bengal_32go" />
-                <Prop Name="ro.vendor.qti.sys.fw.bservice_limit" Value="5"  Variant="bengal_32go" />
-                <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit" Value="32"  Variant="bengal_32go" />
-                <Prop Name="ro.lmk.kill_heaviest_task_dup" Value="false"    Variant="bengal_32go" />
-                <Prop Name="vendor.iop.enable_uxe"             Value="0"    Variant="bengal_32go" />
-                <Prop Name="ro.lmk.enable_preferred_apps"    Value="false"  Variant="bengal_32go"/>
-                <Prop Name="ro.lmk.psi_window_size_ms"         Value="500"  Variant="bengal_32go"/>
-                <Prop Name="ro.lmk.psi_poll_period_scrit_ms"   Value="100"  Variant="bengal_32go"/>
-                <Prop Name="ro.lmk.psi_scrit_complete_stall_ms" Value="85"  Variant="bengal_32go"/>
-
-                <!--Mention all the khaje specific properties here -->
-                <Prop Name="ro.vendor.perf.enable.prefapps" Value="true" Target="khaje" />
-                <Prop Name="ro.vendor.use_perf_hal_for_preferredapps" Value="true" Target="khaje" />
-                <Prop Name="ro.vendor.perf.count.prefapps" Value="5" Target="khaje" />
-                <Prop Name="vendor.iop.enable_uxe" Value="0" Target="khaje" />
-                <Prop Name="ro.vendor.perf.enable.procomp" Value="true" Target="khaje" />
-                <Prop Name="ro.vendor.perf.ss" Value="true" Target="khaje"/>
-                <Prop Name="ro.vendor.perf.lal" Value="true" Target="khaje"/>
-                <Prop Name="ro.vendor.perf.lgl" Value="true" Target="khaje" SkewType="10"/>
-                <Prop Name="ro.vendor.perf.splh" Value="true" Target="khaje" />
-
                 <!--LMKD Properties -->
                 <Prop Name="ro.lmk.use_new_strategy_dup"        Value="false" Target="khaje" />
                 <Prop Name="ro.lmk.enable_preferred_apps"       Value="true" Target="khaje" />
@@ -122,15 +76,6 @@ property Name is called. -->
                 <Prop Name="vendor.appcompact.rss_throttle_kb"             Value="12000" Target="khaje" />
                 <Prop Name="vendor.appcompact.delta_rss_throttle_kb"       Value="8000" Target="khaje" />
 
-                <Prop Name="ro.lmk.enable_preferred_apps"        Value="false" Target="khaje" Ram="3" />
-                <Prop Name="ro.lmk.kill_heaviest_task_dup"       Value="false" Target="khaje" Ram="3" />
-                <Prop Name="ro.lmk.psi_window_size_ms"           Value="500"   Target="khaje" Ram="3" />
-                <Prop Name="ro.lmk.psi_poll_period_scrit_ms"     Value="100"   Target="khaje" Ram="3" />
-                <Prop Name="ro.lmk.psi_scrit_complete_stall_ms"  Value="85"    Target="khaje" Ram="3" />
-                <Prop Name="vendor.iop.enable_uxe"               Value="0"     Target="khaje" Ram="3" />
-                <Prop Name="ro.vendor.qti.sys.fw.bservice_limit" Value="5"     Target="khaje" Ram="3" />
-                <Prop Name="ro.vendor.qti.sys.fw.bservice_age"   Value="5000"  Target="khaje" Ram="3" />
-                <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit"  Value="32"    Target="khaje" Ram="3" />
                 <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit"  Value="32"    Target="khaje" Ram="4" />
 
     </PerfConfigs>
