@@ -289,7 +289,7 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/idc/,$(TARGET_COPY_OUT_VENDOR)/usr/idc)
 
 # Incremental FS
-PRODUCT_VENDOR_OVERRIDES += \
+PRODUCT_VENDOR_PROPERTIES += \
     ro.incremental.enable=1
 
 # Keyguard
