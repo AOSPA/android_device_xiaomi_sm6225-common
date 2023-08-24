@@ -233,7 +233,9 @@ vendor/lib64/libcpion.so|8a63f2c0e508105cfe3808d2319591fceb841b49
 vendor/lib64/libdrmfs.so|6a5a11ff9adc9e1c8fa7b4f0252fab40c90495d4
 vendor/lib64/libdrmtime.so|621b8dc9b3754888a7879818cd7ec2a7d90bd35b
 vendor/lib64/libops.so|0bff10dec47975c62f378bf04dc2f06e3b8277ff
+vendor/lib64/libpvr.so
 vendor/lib64/libqisl.so|c79719eebc094c2af9561e8df2c158638b111b70
+vendor/lib64/librmp.so
 vendor/lib64/librpmb.so|0f099af852fce1bf7d653b956a73bea915e8d806
 vendor/lib64/libsecureui.so|9a34f7b698958fe867f0a85b6ca19bb1a66ffac2
 vendor/lib64/libsecureui_svcsock.so|6af612f057f4f28720d6db9b300b58c883da6539
