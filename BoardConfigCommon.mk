@@ -80,6 +80,7 @@ BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 TARGET_TAP_TO_WAKE_NODE ?= "/proc/tp_gesture"
 
 # HIDL
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(COMMON_PATH)/configs/hidl/xiaomi_common_framework_compatibility_matrix.xml
 DEVICE_MANIFEST_FILE += $(COMMON_PATH)/configs/hidl/manifest.xml
 
 # Kernel
