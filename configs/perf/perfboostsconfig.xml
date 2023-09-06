@@ -245,7 +245,7 @@
             Resources="0x41800000, 0x26, 0x40800000, 1056" />
         <Config
             Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="khaje" Fps="60"
-            Resources="0x41800000, 0x26, 0x40800000, 1766, 0x40800100, 1766, 0x40C00000, 2 />
+            Resources="0x41800000, 0x26, 0x40800000, 1766, 0x40800100, 1766, 0x40C00000, 2,
                        0x4280C000, 785" />
 
         <!-- CPUBW_MIN_FREQ resource opcode, value-->
