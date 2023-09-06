@@ -342,7 +342,6 @@ PRODUCT_COPY_FILES += \
     
 # Rootdir / Init files
 PRODUCT_PACKAGES += \
-    init.goodix.events.sh \
     init.qti.dcvs.sh \
     init.qti.early_init.sh
 
