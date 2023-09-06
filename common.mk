@@ -210,8 +210,7 @@ USE_DEX2OAT_DEBUG := false
 
 # Display
 PRODUCT_PACKAGES += \
-    android.frameworks.displayservice@1.0.vendor \
-    libdisplayconfig.qti
+    android.frameworks.displayservice@1.0.vendor
 
 PRODUCT_VENDOR_PROPERTIES += \
     debug.sf.disable_backpressure=1 \
