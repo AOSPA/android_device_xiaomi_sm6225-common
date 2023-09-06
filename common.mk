@@ -387,6 +387,9 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.qcomsysd.enabled=1
 
 # Radio
+PRODUCT_PRODUCT_PROPERTIES += \
+    rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
+
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.telephony.block_binder_thread_on_incoming_calls=false
 
@@ -398,7 +401,6 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.radio.force_on_dc=true \
     persist.vendor.radio.mt_sms_ack=30 \
     persist.vendor.radio.process_sups_ind=1 \
-    rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
     ro.vendor.radio.features_common=3 \
     ro.vendor.se.type=HCE,UICC \
     sys.vendor.shutdown.waittime=500
@@ -445,7 +447,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.sys.thermal.data.path=/data/vendor/thermal/
 
 # Time-services
-PRODUCT_VENDOR_PROPERTIES += \
+PRODUCT_PRODUCT_PROPERTIES += \
     persist.timed.enable=true
 
 # USB
