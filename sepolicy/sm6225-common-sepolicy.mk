@@ -32,6 +32,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
     device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/camera \
     device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/charger \
     device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/common \
+    device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/dolby \
     device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/fingerprint \
     device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/ir \
     device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/last_kmsg \
