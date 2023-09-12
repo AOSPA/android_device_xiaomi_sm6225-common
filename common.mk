@@ -132,9 +132,6 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.bluetooth.emb_wp_mode=false \
     ro.bluetooth.wipower=false
 
-PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    persist.vendor.btstack.enable.lpa=true
-
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.bluetooth.modem_nv_support=true \
     persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aac-aptx-aptxhd-ldac \
