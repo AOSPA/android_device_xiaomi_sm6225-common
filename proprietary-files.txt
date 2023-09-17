@@ -628,9 +628,6 @@ vendor/lib64/libsubsystem_control.so|eff7dd1899097f8e568e884dfc66ecc12259ae81
 vendor/bin/tftp_server|101fc62916069a454771b48965e9d4976b662ffc
 vendor/etc/init/vendor.qti.tftp.rc|b27f188cbffba470a4510d50e46ff7c8446c22cb
 
-# Thermal - from SPESNGlobal_V13.0.7.0.SGKMIXM
-vendor/etc/thermal-normal.conf|42ce733f913f676f330f4f0892c28a90946219f2
-
 # Time - from LA.UM.9.15.2.r1-07000-KAMORTA.QSSI-13.0
 -vendor/app/TimeService/TimeService.apk|92317b3b72586489456d37057b4c3c8e55863923
 vendor/bin/time_daemon|5ac6b1af3c41eecad1e522df8e272db5fab86523
