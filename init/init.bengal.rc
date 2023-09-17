@@ -13,10 +13,6 @@
 # limitations under the License.
 
 on init
-    # DT2W
-    chown system system /proc/tp_gesture
-    chmod 0644 /proc/tp_gesture
-
     # Bind mount fastrpc_shell_3 for labelling
     mkdir /mnt/vendor/dsp 0770 root root
     copy /vendor/dsp/cdsp/fastrpc_shell_3 /mnt/vendor/dsp/fastrpc_shell_3
@@ -42,6 +38,10 @@ on early-boot
     write /sys/bus/msm_subsys/devices/subsys5/restart_level RELATED
     write /sys/bus/msm_subsys/devices/subsys6/restart_level RELATED
     write /sys/bus/msm_subsys/devices/subsys7/restart_level RELATED
+
+on boot
+    chown system system /sys/touchpanel/double_tap
+    chmod 0644 /sys/touchpanel/double_tap
 
 on property:ro.boot.hwname=*
     setprop ro.boot.product.hardware.sku ${ro.boot.hwname}
