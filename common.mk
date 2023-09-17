@@ -78,8 +78,6 @@ PRODUCT_SYSTEM_PROPERTIES += \
     ro.config.vc_call_vol_steps=11
 
 PRODUCT_VENDOR_PROPERTIES += \
-    persist.audio.button_jack.profile=volume \
-    persist.audio.button_jack.switch=0 \
     persist.vendor.audio.ozo.codec.enable=true \
     ro.audio.monitorRotation=true \
     ro.vendor.audio.afe.record=true \
