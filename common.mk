@@ -123,14 +123,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.sys.btsatck.absvolfeature=true \
-    persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aac \
-    persist.vendor.btstack.aac_frm_ctl.enabled=true \
-    persist.vendor.btstack.connect.peer_earbud=true \
-    persist.vendor.btstack.enable.swb=true \
-    persist.vendor.btstack.enable.swbpm=true \
-    persist.vendor.service.bdroid.soc.alwayson=true \
-    ro.bluetooth.emb_wp_mode=false \
-    ro.bluetooth.wipower=false
+    persist.vendor.service.bdroid.soc.alwayson=true
 
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.bluetooth.modem_nv_support=true \
