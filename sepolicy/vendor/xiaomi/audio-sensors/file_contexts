@@ -1,6 +1,9 @@
 # Audio Socket
 /dev/socket/audio_hw_socket                  u:object_r:audio_socket:s0
 
+# f0_value
+/sys/devices/platform/soc/[a-z0-9]+.i2c/i2c-+[0-9]/[0-9]+-00+[a-z0-9]+[a-z0-9]/f0_value  u:object_r:sysfs_f0_value:s0
+
 # Ultrasound Device
 /dev/elliptic[0-9]                                                                                                              u:object_r:sensors_device:s0
 /sys/bus/iio/devices                                                                                                            u:object_r:vendor_sysfs_iio:s0
