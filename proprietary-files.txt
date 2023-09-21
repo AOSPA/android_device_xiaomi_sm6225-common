@@ -467,6 +467,10 @@ vendor/etc/init/init.qti.qcv.rc|1d0cff5660bdf7abc22ac2b960a0dcd88404d740
 vendor/lib64/libsoc_helper.so|cdd194a76c1ff4836411babeb329090c4eae8d3b
 vendor/lib64/libsoc_helper_jni.so|1ed6ebd7bd154e481617ce98273139d2b916094b
 
+# QDMA - from LA.UM.9.15.2.r1-07000-KAMORTA.QSSI-13.0
+vendor/bin/qcc-trd|92f00fafe0f75e38e310ba5f62a21a0c649ad683
+vendor/lib64/libqdma_file_agent.so|9c9a03ea1507a247e9d736b4073781d893f865f4
+
 # QMI - from LA.UM.9.15.2.r1-07000-KAMORTA.QSSI-13.0
 vendor/bin/irsc_util|68d97ba7c1d9ed8ca9a9a1673be60680171e711d
 vendor/bin/qrtr-cfg|20f88dc4a2eed437a916cde3d70ccd24a326031f
