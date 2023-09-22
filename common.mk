@@ -265,10 +265,6 @@ PRODUCT_VENDOR_PROPERTIES += \
    ro.hardware.vulkan=adreno \
    ro.opengles.version=196610
 
-# GFX
-PRODUCT_VENDOR_PROPERTIES += \
-    ro.config.avoid_gfx_accel=true
-
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
