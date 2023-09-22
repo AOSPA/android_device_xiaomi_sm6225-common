@@ -287,7 +287,6 @@ PRODUCT_COPY_FILES += \
 
 # Media
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    debug.stagefright.omx_default_rank=0 \
     media.aac_51_output_enabled=true \
     media.stagefright.enable-aac=true \
     media.stagefright.enable-fma2dp=true \
