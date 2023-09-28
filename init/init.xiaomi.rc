@@ -53,10 +53,6 @@ on post-fs-data
     chmod 0777 /sys/class/power_supply/battery/input_suspend
     chown system system /sys/class/power_supply/battery/input_suspend
 
-    # Display
-    chown system system /sys/class/drm/card0-DSI-1/mipi_reg
-    chmod 664 /sys/class/drm/card0-DSI-1/mipi_reg
-
     #enabled modem/adsp/cdsp coredump
     write sys/class/remoteproc/remoteproc2/coredump  enabled
     write sys/class/remoteproc/remoteproc1/coredump  enabled
@@ -101,9 +97,6 @@ on boot
     chmod 0777 /sys/class/ant_div_class/ant_div_state
     chown system system /sys/class/ant_class/ant_state
     chown system system /sys/class/ant_div_class/ant_div_state
-
-    # Display
-    chown system system /sys/devices/virtual/graphics/fb0/hist_event
 
     setprop persist.bluetooth.a2dp_offload.disabled false
 
