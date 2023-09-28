@@ -94,9 +94,6 @@ on boot
     chmod 0777 /sys/class/leds/vibrator/duration
     chmod 0777 /sys/class/leds/vibrator/activate
 
-    #Load exfat driver
-    insmod /vendor/lib/modules/exfat.ko
-
     # Xiaomi Thermal permissions
     chown system system /sys/class/thermal/thermal_message/sconfig
     chown system system /sys/class/thermal/thermal_message/balance_mode
