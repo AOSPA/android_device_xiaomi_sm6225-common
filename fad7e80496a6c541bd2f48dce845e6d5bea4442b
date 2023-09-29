@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f005d101_c956f890",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000934
+      },
+      "writtenOn": "2023-09-29T15:14:59Z",
+      "side": 1,
+      "message": "Extensively tested and showed positive results in all scenarios.\nDramatically reduced the death of apps in the background.",
+      "revId": "fad7e80496a6c541bd2f48dce845e6d5bea4442b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
