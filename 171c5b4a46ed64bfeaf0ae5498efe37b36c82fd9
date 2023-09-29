@@ -104,6 +104,24 @@
       "parentUuid": "9b0a7c5a_c373901b",
       "revId": "171c5b4a46ed64bfeaf0ae5498efe37b36c82fd9",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43fc3c24_0b8c50db",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000890
+      },
+      "writtenOn": "2023-09-29T12:47:53Z",
+      "side": 1,
+      "message": "To be fair qcom post boot script sets the min freq aswell so yeah. Plus making both clusters use 300mhz especially at boot isn\u0027t ideal and I don\u0027t think this would even cause system lags since it\u0027s post boot? Maybe cause an increment in boot time (could check with bootchart) but then again that\u0027s solvable by defaulting to performance governor in kernel then letting init scripts handle the switch to schedutil for a better boot time and minimal to non-existent lags.",
+      "parentUuid": "ec4710d0_ff5c2da4",
+      "revId": "171c5b4a46ed64bfeaf0ae5498efe37b36c82fd9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
