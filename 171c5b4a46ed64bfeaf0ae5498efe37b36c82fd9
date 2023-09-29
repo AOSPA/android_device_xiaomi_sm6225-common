@@ -68,6 +68,24 @@
       "parentUuid": "0604b2e5_bdd3d3dd",
       "revId": "171c5b4a46ed64bfeaf0ae5498efe37b36c82fd9",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b0a7c5a_c373901b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000890
+      },
+      "writtenOn": "2023-09-29T11:56:34Z",
+      "side": 1,
+      "message": "Wdym no? Did no one do freqbench on bengal? If not, someone should to figure out the efficient frequencies and optimized energy model since ya\u0027ll got the kernel source for spes now.",
+      "parentUuid": "e8b3013a_e726a50e",
+      "revId": "171c5b4a46ed64bfeaf0ae5498efe37b36c82fd9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
