@@ -86,6 +86,24 @@
       "parentUuid": "e8b3013a_e726a50e",
       "revId": "171c5b4a46ed64bfeaf0ae5498efe37b36c82fd9",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec4710d0_ff5c2da4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000737
+      },
+      "writtenOn": "2023-09-29T12:11:58Z",
+      "side": 1,
+      "message": "This is not about efficient frequencies, In all my dt I always define the values in init .rc file, Generally I don\u0027t use the default value, but rather a small higher value, in some cases this avoids UI system lags in some scenarios, des This time I\u0027m just decreasing the value because many of my testers said that it doesn\u0027t affect the lag and is causing a small energy saving. This is the reason for the commit, plus if I need to make a change in the future, I can easily do it here in the device tree",
+      "parentUuid": "9b0a7c5a_c373901b",
+      "revId": "171c5b4a46ed64bfeaf0ae5498efe37b36c82fd9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
