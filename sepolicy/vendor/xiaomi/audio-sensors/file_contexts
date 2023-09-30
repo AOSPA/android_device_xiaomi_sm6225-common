@@ -1,6 +1,3 @@
-# Audio Socket
-/dev/socket/audio_hw_socket                  u:object_r:audio_socket:s0
-
 # Ultrasound Device
 /dev/elliptic[0-9]                                                                                                              u:object_r:sensors_device:s0
 /sys/bus/iio/devices                                                                                                            u:object_r:vendor_sysfs_iio:s0

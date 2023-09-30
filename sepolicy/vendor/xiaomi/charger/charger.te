@@ -1,3 +1,0 @@
-r_dir_file(charger, vendor_sysfs_graphics)
-
-allow charger vendor_sysfs_graphics:{ file lnk_file } w_file_perms;
