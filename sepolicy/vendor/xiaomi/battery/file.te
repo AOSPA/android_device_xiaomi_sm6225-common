@@ -1,2 +1,0 @@
-# Persist subsystem file
-type persist_subsys_file, vendor_persist_type, file_type;

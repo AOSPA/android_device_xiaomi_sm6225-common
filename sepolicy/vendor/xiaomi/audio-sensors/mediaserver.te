@@ -1,2 +1,0 @@
-# Allow mediaserver to r/w to sound device
-allow mediaserver sound_device:chr_file rw_file_perms;

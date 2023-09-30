@@ -26,21 +26,12 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
 
 # Xiaomi and (Device specific) Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += \
-    device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/audio-sensors \
-    device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/battery \
-    device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/bluetooth \
     device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/camera \
-    device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/charger \
     device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/common \
-    device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/dolby \
     device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/fingerprint \
-    device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/ir \
     device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/last_kmsg \
-    device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/light \
     device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/modem \
     device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/nfc \
     device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/power \
     device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/power_supply \
-    device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/thermald \
-    device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/usb \
-    device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/vibrator
+    device/xiaomi/sm6225-common/sepolicy/vendor/xiaomi/usb
