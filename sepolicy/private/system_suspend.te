@@ -1,2 +1,0 @@
-dontaudit system_suspend sysfs:file { open read };
-dontaudit system_suspend sysfs:dir read;

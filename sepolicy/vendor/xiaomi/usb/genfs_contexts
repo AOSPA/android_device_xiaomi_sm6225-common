@@ -1,1 +1,3 @@
+genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-0066/Charging_Adapter/pd_adapter u:object_r:vendor_sysfs_usbpd_device:s0
+genfscon sysfs /devices/platform/soc/soc:xm_pd_adapter/Charging_Adapter/pd_adapter        u:object_r:vendor_sysfs_usbpd_device:s0
 genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/1c40000.qcom,spmi:qcom,pm6125@2:qcom,usb-pdphy@1700/typec   u:object_r:sysfs_usb:s0
