@@ -1,2 +1,0 @@
-persist.vendor.btstack.              u:object_r:vendor_bluetooth_prop:s0
-persist.vendor.bt.                   u:object_r:vendor_bluetooth_prop:s0

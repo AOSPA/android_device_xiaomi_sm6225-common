@@ -1,2 +1,0 @@
-allow init vendor_sysfs_usb_supply:file setattr;
-allow init vendor_sysfs_battery_supply:file setattr;
