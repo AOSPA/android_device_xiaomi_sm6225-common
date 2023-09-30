@@ -1,46 +1,10 @@
-# Camera
-ro.camera.req.fmq.size             u:object_r:vendor_ro_camera_prop:s0
-ro.camera.res.fmq.size             u:object_r:vendor_ro_camera_prop:s0
-camera.sensor.rearMain.fuseID      u:object_r:vendor_camera_prop:s0
-camera.sensor.frontAux.fuseID      u:object_r:vendor_camera_prop:s0
-camera.sensor.frontMain.fuseID     u:object_r:vendor_camera_prop:s0
-camera.sensor.rearUltra.fuseID     u:object_r:vendor_camera_prop:s0
-camera.sensor.rearTele.fuseID      u:object_r:vendor_camera_prop:s0
-vendor.sys.camerainfo              u:object_r:vendor_camera_prop:s0
-audio.camerasound.force            u:object_r:vendor_camera_prop:s0
-ro.boot.camera.                    u:object_r:vendor_camera_prop:s0
-camera.debug.superlowlight         u:object_r:vendor_camera_prop:s0
-persist.camera.                    u:object_r:vendor_camera_prop:s0
-persist.vendor.low.cutoff.         u:object_r:vendor_camera_prop:s0
-vendor.camera.watermark.en         u:object_r:vendor_camera_prop:s0
-ro.vendor.audio.us.proximity       u:object_r:vendor_camera_prop:s0
-ro.vendor.display.type             u:object_r:vendor_camera_prop:s0
-vendor.panel.display               u:object_r:vendor_camera_prop:s0
-persist.vednor.camera.             u:object_r:vendor_camera_prop:s0
-sys.cameratest.cameralevel         u:object_r:exported_camera_prop:s0
-
-# Dirac
-audio.dirac.                   u:object_r:dirac_prop:s0
-audio.dirac.logging            u:object_r:dirac_prop:s0
-persist.audio.dirac.           u:object_r:dirac_prop:s0
-
 # Fingerprint
 gf.debug.                      u:object_r:vendor_fingerprint_prop:s0
-sys.fp.miui.token              u:object_r:exported_system_prop:s0
-
-# Hardware
-ro.hardware.chipname           u:object_r:exported_default_prop:s0
 
 # SettingsLib
-settingsdebug.instant.packages  u:object_r:settingslib_prop:s0
+settingsdebug.instant.packages u:object_r:settingslib_prop:s0
 
 # Xiaomi specific build properties
 ro.boot.hwc                    u:object_r:exported_default_prop:s0
 ro.boot.hwname                 u:object_r:exported_default_prop:s0
 ro.boot.hwversion              u:object_r:exported_default_prop:s0
-ro.build.flavor                u:object_r:build_prop:s0
-ro.cust.test                   u:object_r:build_prop:s0
-ro.miui.                       u:object_r:build_prop:s0
-ro.vendor.miui.                u:object_r:build_prop:s0
-ro.product.marketname          u:object_r:build_prop:s0
-ro.product.mod_device          u:object_r:build_prop:s0
