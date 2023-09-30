@@ -1,2 +1,0 @@
-# NFC vendor property
-set_prop(vendor_init, vendor_nfc_prop)
