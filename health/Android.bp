@@ -1,6 +1,7 @@
 cc_library_shared {
     name: "android.hardware.health@2.1-impl-xiaomi",
     stem: "android.hardware.health@2.0-impl-2.1-xiaomi",
+    overrides: ["android.hardware.health@2.1-impl-qti"],
     vendor: true,
     recovery_available: true,
 
