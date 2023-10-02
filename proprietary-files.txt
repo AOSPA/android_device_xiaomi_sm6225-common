@@ -12,8 +12,19 @@ vendor/etc/acdbdata/bengal_scubaqrd/QRD_scuba_acdb_cal.acdb|278f923deace47b1fc76
 vendor/etc/acdbdata/bengal_scubaqrd/QRD_scuba_workspaceFileXml.qwsp|82216a3aaf9efdb42114d1b37ce7f9b33759f453
 
 # ADSP - from LA.UM.9.15.2.r1-07000-KAMORTA.QSSI-13.0
+vendor/bin/adsprpcd|2886f08eb674b6ced8bf6e9bb54761094ee7b74c
+vendor/bin/dspservice|081468b9bc63cab921ac1e37a95eb93bd16e23f9
 vendor/bin/loadalgo|7d3f0eda9dc6abf3973233dd10f7ef2529182b9c
+vendor/etc/init/vendor.qti.adsprpc-service.rc|54588df8e7da58c66838028d2284986b966c2d37
+vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
+vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
+vendor/lib/libadsp_default_listener.so|49d7644708419ea077ffd9d00901ebf6cdd4377c
+vendor/lib/libadsprpc.so|28fa25a516ceaaa5fbc003d8b3d519d48c3d6904
+vendor/lib/vendor.qti.hardware.dsp@1.0.so|8fcb647d22144c0ce005eae37e05e786d2b045be
+vendor/lib64/libadsp_default_listener.so|33f44a23edf2cf734658e762a19dfc207b1921b8
+vendor/lib64/libadsprpc.so|52319c2faceb3811a185f1f47c02bceb20ff45e1
 vendor/lib64/libloadalgo_stub.so|f544ef182d9cdc77e02eb8cc2a29ce4c02d0ddfc
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so|2b6b1ffd336e7524240cf9627b0fcec75e8eae5b
 
 # ANT+ - from LA.UM.9.15.2.r1-07000-KAMORTA.QSSI-13.0
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so|ecdf9f24262c49031c470b14a27d3f99d2b47ff4
@@ -90,6 +101,20 @@ vendor/etc/init/vendor.xiaomi.hardware.micharge@1.0-service.rc
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.micharge@1.0.xml
 vendor/lib64/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so
 vendor/lib64/vendor.xiaomi.hardware.micharge@1.0.so
+
+# CDSP - from LA.UM.9.15.2.r1-07000-KAMORTA.QSSI-13.0
+vendor/bin/cdsprpcd|2257675e907dce9ed4a328d66caae44096221bb8
+vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
+vendor/lib/libcdsp_default_listener.so|6a3f97faf26da3d01f7895d37c09c8bc62030e0a
+vendor/lib/libcdsprpc.so|bc3ef833fe2a78fd5bcd78faa09715e28db13561
+vendor/lib/libmdsprpc.so|51d969ae6c36522e651a054cf557f88502aed8d6
+vendor/lib/libsdsprpc.so|172dee1d39f6d1e8b12e84185f52f116d9b7642c
+vendor/lib/libsysmon_cdsp_skel.so|b0dd56ca83493e68dc7610d44045849bb3bd8c38
+vendor/lib64/libcdsp_default_listener.so|23a8dff8e8ab66d23c5de9aa3574dd3c64d113b4
+vendor/lib64/libcdsprpc.so|d7397f85b0a69d149668a3eac628948f856d4579
+vendor/lib64/libmdsprpc.so|71474d16a76acec24eedd936cd61f12b5147fa98
+vendor/lib64/libsdsprpc.so|97e14bff3b602074ed937958a86c5849b60c6ac2
+vendor/lib64/libsysmon_cdsp_skel.so|3ae87b24980f983ba83fd563134328bb0f6f62e8
 
 # CNE - from LA.UM.9.15.2.r1-07000-KAMORTA.QSSI-13.0
 -vendor/app/CACertService/CACertService.apk|b1072f129d588b5c5aefa8824b6d531586a26755
@@ -386,22 +411,22 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|e0fb13ee2ac98e90b93f5b
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|6d4b854e7ba91ef98398568c365a131cf4c01c93
 
 # Media (Dolby) - from munch V14.0.3.0.TLMMIXM
-vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|ff827406bbcd1c82e790730bb017b7af38850004
-vendor/etc/dolby/dax-default.xml|3d79b4d5642b569a6c459d47df762aa528a4d5e5
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|a5b407c13dc7348ce9d66ff71b22063fde803110
+vendor/etc/dolby/dax-default.xml|43f0a8963c1817a8822ab16706679aa37ebdca0f
 vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
 vendor/etc/media_codecs_dolby_audio.xml|a794eb15fc198d0285510260025cd99b53fa174f
 vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml|c8095f649de19b80271fb429b4b6b439297a0678
-vendor/lib/libdapparamstorage.so|d1952f09354f414238e5bd0f57dd0d3f85b8f769
-vendor/lib/libdeccfg.so|c9ea6a462e3a0d00e31223bf2a9c5dd84beff122
-vendor/lib/libstagefright_soft_ac4dec.so|80a061172b10767b49d25ab41829b8c3f065bab9
-vendor/lib/libstagefright_soft_ddpdec.so|f7c10aa69dc46e881021d198bdbca26157f1cc80
-vendor/lib/soundfx/libhwdap.so|4832a5e6e67831980f7d1c68727335567fe9dc53
-vendor/lib/soundfx/libswgamedap.so|93101491221a06b02ab02b12288d00110645e48f
-vendor/lib/soundfx/libswvqe.so|4123ad118d98e3bc2573f0e972703789d2451637
+vendor/lib/libdapparamstorage.so|da1ee55c70a51c820f796ad1663e28b465304e2e
+vendor/lib/libdeccfg.so|22594003b9f28f4c2aeeda484bb7ab8fbf0f67ea
+vendor/lib/libstagefright_soft_ac4dec.so|77edfcbe2af4800b9cc3287ed475b80c17835ee8
+vendor/lib/libstagefright_soft_ddpdec.so|dfdcc9091662dc53588e47727980d5e72e6484ec
+vendor/lib/soundfx/libhwdap.so|4cd5e191b1062f527f4d9f9473ab09f86ac9402e
+vendor/lib/soundfx/libswgamedap.so|c8285b8c78ca68d0ad51968df47eb0c6da99cea2
+vendor/lib/soundfx/libswvqe.so|2de13e125ce4600d6427951a98dcb4e9080116a0
 vendor/lib/vendor.dolby.hardware.dms@2.0.so|2bf537bbf5c413527e5c648b8e63b95f904f7532
-vendor/lib64/libdapparamstorage.so|a8e3bb20ee8579a13d5beef17a0ad251055e9d7b
-vendor/lib64/libdlbdsservice.so|c4658f58874db5964a74e9509a4e0160affd164f
-vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|e90be71a671e64662742b6ee36d7060ed9974726
+vendor/lib64/libdapparamstorage.so|573c229a12b95151922c669301b34851444a8004
+vendor/lib64/libdlbdsservice.so|e5ad048d0957905a97c4792dbc0e4e83e6ff138b
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|e0bd781d13463f28dcc2bd05b37dfaebadecc95b
 vendor/lib64/vendor.dolby.hardware.dms@2.0.so|2020b5fd9abac65520224069bbe75d5e76d3f158
 
 # Media - from LA.UM.9.15.2.r1-07000-KAMORTA.QSSI-13.0
@@ -487,7 +512,7 @@ vendor/lib64/libsoc_helper.so|cdd194a76c1ff4836411babeb329090c4eae8d3b
 vendor/lib64/libsoc_helper_jni.so|1ed6ebd7bd154e481617ce98273139d2b916094b
 
 # QDMA - from LA.UM.9.15.2.r1-07000-KAMORTA.QSSI-13.0
-vendor/bin/qcc-trd|92f00fafe0f75e38e310ba5f62a21a0c649ad683
+vendor/bin/qcc-trd|45c8760c624b9c9206779a718dfaff4c63445600
 vendor/lib64/libqdma_file_agent.so|9c9a03ea1507a247e9d736b4073781d893f865f4
 
 # QMI - from LA.UM.9.15.2.r1-07000-KAMORTA.QSSI-13.0
@@ -618,11 +643,13 @@ vendor/lib64/libnative-api.so|fd6cf92e0347452288758b6ecc25b449535ecb61
 vendor/lib64/libqcbor.so|7da5294a577f5a71ede5b3804a026bf69bd025ee
 
 # Snapdragon Computer Vision Engine - from LA.UM.9.15.2.r1-07000-KAMORTA.QSSI-13.0
+vendor/lib/libfastcvdsp_stub.so|7f27cee24281bc9bf4f08c6100cc66bd650d8efb
 vendor/lib/libscveCommon.so|4be56b846f71f4ba8032471abf9f02dc5b01810c
 vendor/lib/libscveCommon_stub.so|89e1a3d3302b6809ae4ca1d80f6c2e0cd3c3b752
 vendor/lib/libscveObjectSegmentation.so|b60b43377262ef6cc7882ff5cc49d35e4c516670
 vendor/lib/libscveObjectSegmentation_stub.so|f1a139933c16c2fde367506fe0419c15684a2d3c
 vendor/lib/libscveObjectTracker.so|26318c862d3d56596fe7208ebcc3ae1900f7d55f
+vendor/lib64/libfastcvdsp_stub.so|9813b36faa8029bdb358126c2996207fc7704d32
 vendor/lib/libscveObjectTracker_stub.so|cafdeed8fa0d51672806038065cf4ce38d442b6b
 vendor/lib64/libscveCommon.so|237b6432dfb9d7b6ac5d5522591db0972755bb5b
 vendor/lib64/libscveCommon_stub.so|bb5dc4c59d04e35020f4422ae3e19c8cfd0d1537
@@ -632,6 +659,8 @@ vendor/lib64/libscveObjectTracker.so|2c9195e1874ba598135ffec0246648e891fc4e3d
 vendor/lib64/libscveObjectTracker_stub.so|62db08e185e915fe975e5234d1ce1d749e6e9750
 vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so|9119bd42ad43e0e60cdc0626d6a483fc5d793f1a
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so|2d463ceff139c3132b2c6936be8938334ba46abd
+-vendor/lib/libfastcvopt.so|eb6e1052f12b45f2f651f1437e6072459648f2f3
+-vendor/lib64/libfastcvopt.so|0796b9092eb285d7689a8e6c4478a88a1d7e6e87
 
 # Soter - from LA.UM.9.15.2.r1-07000-KAMORTA.QSSI-13.0
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|8e315a85eeeb94a51f1533c80212d2fc0ec88760
