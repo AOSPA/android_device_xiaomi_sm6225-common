@@ -700,11 +700,6 @@ vendor/lib64/libQTEEConnector_listener.so|a05a271a35ff4f558f4665b4467b5eb66f5671
 vendor/lib64/libQTEEConnector_vendor.so|30e5fd8d4fff50083f44f6d0bd09f4bd287a8366
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|e97b21908ec942b5ea6c78100d46398fe1784d0e
 
-# Trusted User Interface - from LA.UM.9.15.2.r1-07000-KAMORTA.QSSI-13.0
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|772dfdebadcfb9af3e6253fd3baf6d7502394ddd
-vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|dcab0e77fcf6d1d1fc669a6573a888e30d9b0930
-
 # UBWC - from LA.UM.9.15.2.r1-07000-KAMORTA.QSSI-13.0
 vendor/lib/libstreamparser.so|49b5a007a6c6ec31a97c00062a421988536f6238
 
