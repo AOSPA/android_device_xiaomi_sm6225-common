@@ -12,9 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# APEX's
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 # Include GSI
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
