@@ -29,6 +29,10 @@ AB_OTA_PARTITIONS += \
     vbmeta_system \
     vendor \
     vendor_boot
+
+# Disable sparse for ext/f2fs images
+TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true
+TARGET_USERIMAGES_SPARSE_F2FS_DISABLED := true
 endif
 
 # Architecture
