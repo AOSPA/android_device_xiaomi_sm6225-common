@@ -498,6 +498,10 @@ vendor/bin/pm-proxy|8ea5c65add4af2dd1503023e8cfdcdf76b961c88
 vendor/bin/pm-service|8db29d527af4c10dad4bf398aa5cea2857ef78b9
 vendor/lib64/libperipheral_client.so|371cc38073c9d9bf8614f992e57a5a9891691191
 
+# Protobuf - from SPES MIUI
+vendor/lib/libprotobuf-cpp-lite-3.9.1.so|32c7bfd361d7570a42ebddd5a9e50ffc28ea69d5
+vendor/lib64/libprotobuf-cpp-lite-3.9.1.so|a946f162883a8c1b1ccecc602f00b56360fd8a81
+
 # QCC - from LA.UM.9.15.2.r1-07000-KAMORTA.QSSI-13.0
 vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service|b49b4964ca1b391921b05d0350479bae517a75ae
 vendor/etc/init/vendor.qti.hardware.qccvndhal@1.0-service.rc|afeb332a4750a11587658fcc9a75a27f63bbccdd
