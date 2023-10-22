@@ -14,5 +14,5 @@
 
 runtime_resource_overlay {
     name: "BengalSettingsOverlay",
-    vendor: true,
+    product_specific: true,
 }
