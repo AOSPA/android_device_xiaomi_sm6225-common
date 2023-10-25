@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?> 
+ 
+<resources> 
+ 
+    <!-- Dirac settings: Equalizer presets --> 
+    <string name="dirac_preset_live">Ao vivo</string> 
+    <string name="dirac_preset_balanced">Equilibrado</string> 
+    <string name="dirac_preset_bass_reduction">Redução de graves</string> 
+    <string name="dirac_preset_treble_reduction">Redução de agudos</string> 
+    <string name="dirac_preset_soft_bass">Baixo suave</string> 
+    <string name="dirac_preset_soft_treble">Agudos Suaves</string> 
+ 
+    <!-- Scene Selection --> 
+    <string name="music_headset_scenario_select">Selecione o cenario</string> 
+    <string name="music_headset_scenario_intelligent">Inteligente</string> 
+    <string name="music_headset_scenario_music">Música</string> 
+    <string name="music_headset_scenario_video">Filme / Vídeo</string> 
+    <string name="music_headset_scenario_vocal">Voz</string> 
+ 
+    <!-- Dolby Atmos --> 
+    <string name="dolby_title">Dolby Atmos</string> 
+    <string name="dolby_enable">Ativar Dolby Atmos</string> 
+    <string name="dolby_profile_title">Escolha um perfil</string> 
+    <string name="dolby_profile_dynamic">Dinâmico</string> 
+    <string name="dolby_preset">Predefinição do equalizador</string> 
+    <string name="dolby_off">Desligado</string> 
+    <string name="dolby_on">Ativado</string> 
+    <string name="dolby_low">Baixo</string> 
+    <string name="dolby_medium">Médio</string> 
+    <string name="dolby_high">Alto</string> 
+    <string name="dolby_max">Máx.</string> 
+    <string name="dolby_unknown">Desconhecido</string> 
+    <string name="dolby_on_with_profile">Ativado (%1$s)</string> 
+    <string name="dolby_category_settings">Configurações</string> 
+    <string name="dolby_bass_enhancer">Intensificador de graves</string> 
+    <string name="dolby_dialogue_enhancer">Melhorador de diálogo</string> 
+    <string name="dolby_virtualizer">Virtualizador surround</string> 
+    <string name="dolby_stereo_widening">Ampliação estéreo</string> 
+    <string name="dolby_volume_leveler">Nivelador de volume</string> 
+    <string name="dolby_connect_headphones">Conecte fones de ouvido</string> 
+    <string name="dolby_reset_profile">Redefinir para os padrões</string> 
+    <string name="dolby_reset_profile_toast">As configurações do perfil %1$s foram redefinidas com sucesso</string> 
+ 
+</resources> 
+
