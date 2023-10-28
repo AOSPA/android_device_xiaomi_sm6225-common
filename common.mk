@@ -71,7 +71,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.audio.service
 
-PRODUCT_ODM_PROPERTIES += \
+PRODUCT_PRODUCT_PROPERTIES += \
     vendor.audio.feature.dynamic_ecns.enable=false \
     vendor.audio.offload.buffer.size.kb=256
 
