@@ -2,6 +2,6 @@
   *;
 }
 
--keep class org.lineageos.settings.dolby.* {
+-keep class org.lineageos.settings.dirac.* {
   *;
 }
