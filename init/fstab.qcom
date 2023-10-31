@@ -54,3 +54,4 @@ system_ext                                              /system_ext             
 /dev/block/bootdevice/by-name/boot                      /boot                    emmc    defaults                                             defaults
 /dev/block/bootdevice/by-name/recovery                  /recovery                emmc    defaults                                             defaults
 /dev/block/mmcblk1p1                                    /sdcard                  vfat    nosuid,nodev                                         wait,recoveryonly
+/dev/block/mmcblk0p1                                    /sdcard                  vfat    nosuid,nodev                                         wait,recoveryonly
