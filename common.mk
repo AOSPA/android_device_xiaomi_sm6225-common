@@ -450,8 +450,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.hardware.wlan.vendor=qcom
 
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.hardware.wlan.dbs=0 \
-    ro.telephony.iwlan_operation_mode=legacy
+    ro.hardware.wlan.dbs=0
 
 # Zygote
 PRODUCT_SYSTEM_PROPERTIES += \
