@@ -19,6 +19,7 @@ android_app {
         "androidx.preference_preference",
         "co.aospa.resources",
         "SettingsLib",
+        "vendor.xiaomi.hardware.fingerprintextension-V1.0-java",
     ],
 
     optimize: {

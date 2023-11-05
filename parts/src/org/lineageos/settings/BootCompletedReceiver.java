@@ -25,6 +25,7 @@ import android.util.Log;
 
 import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.utils.FileUtils;
+import org.lineageos.settings.gestures.GestureUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
@@ -54,4 +55,9 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         DiracUtils.getInstance(context);
         ThermalUtils.initialize(context);
     }        
+
+        // Gesture: Double tap FPS
+        if (GestureUtils.isFpDoubleTapEnabled(context)) {
+        GestureUtils.setFingerprintNavigation(true);
+    }
 }

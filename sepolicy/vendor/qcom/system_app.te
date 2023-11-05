@@ -1,2 +1,4 @@
 allow system_app vendor_hal_pasrmanager_qti:binder call;
 allow system_app sysfs_kgsl:dir { read getattr search open };
+allow system_app hal_xiaomi_fingerprint_hwservice:hwservice_manager find;
+binder_call(system_app, hal_fingerprint_default)
