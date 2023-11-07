@@ -1,5 +1,1 @@
 allow system_server app_zygote:process getpgid;
-
-# Oem fastcharge
-allow system_server sysfs_wakeup:file r_file_perms;
-allow system_server vendor_sysfs_battery_supply:file r_file_perms;
