@@ -28,3 +28,4 @@ enable3ADebugData=FALSE
 enableTuningMetadata=FALSE
 raiserecoverysigabrt=FALSE
 FDPreprocessing=AdaptiveGTM
+multiCameraEnable=TRUE
