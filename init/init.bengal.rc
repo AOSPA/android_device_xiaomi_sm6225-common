@@ -34,5 +34,9 @@ on boot
     chown system system /sys/touchpanel/double_tap
     chmod 0644 /sys/touchpanel/double_tap
 
+    # Lineage Health
+    chmod 0660 /sys/class/power_supply/battery/input_suspend
+    chown system system /sys/class/power_supply/battery/input_suspend
+
 on property:ro.boot.hwname=*
     setprop ro.boot.product.hardware.sku ${ro.boot.hwname}
