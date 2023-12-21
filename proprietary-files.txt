@@ -413,6 +413,12 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|e0fb13ee2ac98e90b93f5b
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|6d4b854e7ba91ef98398568c365a131cf4c01c93
 
 # Media - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+vendor/bin/mm-vidc-omx-test|d229c92c36406c6b18629acd5e615ce755a70a59
+-vendor/lib/libMpeg4SwEncoder.so|73cc7e558239ecaf74950b4b9a67fb8b0ba3fe16
+vendor/lib/libfastcrc.so|c375e138d9a25c65014e06f08b47e46e8bc88d43
+vendor/lib/libstreamparser.so|49b5a007a6c6ec31a97c00062a421988536f6238
+vendor/lib/libswvdec.so|7d269da9b5b9b2f5e4ee3ce3b68e3725ce012ef0
+vendor/lib/libvideoutils.so|8386c94816eb456f8eb78c2203da3aedd35226d1
 vendor/lib/libOmxAacDec.so|c294bf10a6cc46039ee1cd5052f906acbaa60cde
 vendor/lib/libOmxAacEnc.so|8c6d989c860fe6c3f9da529f0f34d4015f35a76c
 vendor/lib/libOmxAlacDec.so|f8b6d0dcedbcd9c9246c8b8ffc04c16c17ead152
@@ -440,6 +446,9 @@ vendor/lib/libOmxVideoDSMode.so|1d8862f6b734d85e7f35a0b618fa0f1dc972cdce
 vendor/lib/libOmxWmaDec.so|dacf67e80ef9f499cc06663a98276b23d426259e
 vendor/lib/libdsd2pcm.so|211fba279dc4f9640df709331573aacd88d3b0b3
 vendor/lib/libmmosal.so|6f71fd1d54d6ca8df7d362a72517b082ed412bbe
+vendor/lib/vendor.qti.hardware.vpp@1.1.so|3e0467d0c30bb6cccab12d2e67dacc5ea852b3df
+vendor/lib/vendor.qti.hardware.vpp@1.2.so|d1226cfbeee864b7cac52bcee37fdf4524892fd6
+vendor/lib64/libswvdec.so|e50cc714152873d4fdcabd3ed1bbf9e635725b78
 vendor/lib64/libOmxAacDec.so|005431161cd3159341eca49ba6be9df9195de173
 vendor/lib64/libOmxAacEnc.so|0a44ab2269db480711616e3e147b745e21c99cd3
 vendor/lib64/libOmxAlacDec.so|2b6f49a155bb5cf27442a3ebfe3fb7487b50e86e
@@ -463,6 +472,8 @@ vendor/lib64/libOmxVdec.so|608e9290104febc95e1a80406f60e7f4f3ff013c
 vendor/lib64/libOmxVenc.so|f9c6bbf293fac62f3d70eee8f3b0c3c9a22cb91d
 vendor/lib64/libOmxWmaDec.so|7c83ae668dbba2f16d26c547baa5956ea2633cc4
 vendor/lib64/libmmosal.so|b6ec24ce3f6c34010f7700891665f66f1c8f3bb6
+vendor/lib64/vendor.qti.hardware.vpp@1.1.so|05c88622d43390c3b4a216755b44c2e034c282e8
+vendor/lib64/vendor.qti.hardware.vpp@1.2.so|fcda1d2266d3f66015cd6506b7f496a2033db3d8
 
 # PD - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
 vendor/bin/pd-mapper|4aac33918475c5bfa0f51b30cc16ced4c805e6d6
@@ -677,9 +688,6 @@ vendor/lib64/libGPTEE_vendor.so|92c0215dbd3271e597d536c259df44aac716a402
 vendor/lib64/libQTEEConnector_listener.so|a05a271a35ff4f558f4665b4467b5eb66f56716b
 vendor/lib64/libQTEEConnector_vendor.so|30e5fd8d4fff50083f44f6d0bd09f4bd287a8366
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|e97b21908ec942b5ea6c78100d46398fe1784d0e
-
-# UBWC - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
-vendor/lib/libstreamparser.so|49b5a007a6c6ec31a97c00062a421988536f6238
 
 # WiFi Display - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
 vendor/bin/wfdhdcphalservice|768476bd30672982e07937e8a765537cc23481c9
