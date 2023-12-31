@@ -1,4 +1,4 @@
-# LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0 blobs from bengal
+# LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0 blobs from bengal
 # LA.VENDOR.1.0.r1-15600-WAIPIO blobs from taro
 
 # ACDB - from LA.VENDOR.1.0.r1-15600-WAIPIO
@@ -11,7 +11,7 @@ vendor/etc/acdbdata/bengal_scubaidp/IDP_scuba_workspaceFileXml.qwsp|5f56c0cb5d27
 vendor/etc/acdbdata/bengal_scubaqrd/QRD_scuba_acdb_cal.acdb|278f923deace47b1fc766e9e1a5a527fe0422dc6
 vendor/etc/acdbdata/bengal_scubaqrd/QRD_scuba_workspaceFileXml.qwsp|82216a3aaf9efdb42114d1b37ce7f9b33759f453
 
-# ADSP - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# ADSP - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/adsprpcd|2886f08eb674b6ced8bf6e9bb54761094ee7b74c
 vendor/bin/dspservice|081468b9bc63cab921ac1e37a95eb93bd16e23f9
 vendor/bin/loadalgo|7d3f0eda9dc6abf3973233dd10f7ef2529182b9c
@@ -26,7 +26,7 @@ vendor/lib64/libadsprpc.so|64f4916e55978acd38af7bba774be2e696939b30
 vendor/lib64/libloadalgo_stub.so|f544ef182d9cdc77e02eb8cc2a29ce4c02d0ddfc
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so|2b6b1ffd336e7524240cf9627b0fcec75e8eae5b
 
-# ANT+ - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# ANT+ - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so|ecdf9f24262c49031c470b14a27d3f99d2b47ff4
 
 # Audio Dirac - from xiaomi
@@ -63,7 +63,7 @@ system_ext/lib64/soundfx/libozoprocessing.so:vendor/lib64/soundfx/libozoprocessi
 # Bluetooth - from SPES MIUI
 system_ext/etc/bluetooth/leaudio_configs.xml|bdf7cee5fe9c322aa9e43e8fc4092c41ff7b4130
 
-# Bluetooth - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# Bluetooth - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|b0f73b4ac1a88607ec90b514b9602de423bb9be6
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
 vendor/lib/btaudio_offload_if.so|a6a47f8397048e0286d6291b1996d6af16cbe241
@@ -102,7 +102,7 @@ vendor/etc/vintf/manifest/vendor.xiaomi.hardware.micharge@1.0.xml
 vendor/lib64/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so
 vendor/lib64/vendor.xiaomi.hardware.micharge@1.0.so
 
-# CDSP - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# CDSP - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/cdsprpcd|2257675e907dce9ed4a328d66caae44096221bb8
 vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
 vendor/lib/libcdsp_default_listener.so|7253ad76e4d1ca9311b99cdbfe0e36c2b489afc3
@@ -116,7 +116,7 @@ vendor/lib64/libmdsprpc.so|f4c65b53a82688567ca6c3e134b27c09cf5f2a46
 vendor/lib64/libsdsprpc.so|3a02bfc9cbe64df32b68f2424f0770f07c39daa2
 vendor/lib64/libsysmon_cdsp_skel.so|3ae87b24980f983ba83fd563134328bb0f6f62e8
 
-# CNE - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# CNE - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 -vendor/app/CACertService/CACertService.apk|b1072f129d588b5c5aefa8824b6d531586a26755
 -vendor/app/CneApp/CneApp.apk|345dc6c677e9bd7a7d36033b8955e90d2a1594d5
 -vendor/app/IWlanService/IWlanService.apk|9ea57bfbf58799a564fcf498de9f5fe3506f7342
@@ -156,13 +156,13 @@ vendor/etc/init/cnd.rc|3a5183df3479500fb729493bc56c71166fc10bce
 vendor/etc/init/mutualex.rc|d6d6673e59abfdb53232d502842285bae8f323f1
 vendor/lib64/libcacertclient.so|d73c1651d2a66a595a65edc43d5605501bc2fd73
 vendor/lib64/libcne.so|5e97240c99ee0942fda9fe9e0deff7734368af8b
-vendor/lib64/libcneapiclient.so|7dadb6a2900525938651d9a96e88fd078d647abd
+vendor/lib64/libcneapiclient.so|3aaced23d2a1611007c02b8094338cec8b3cbe83
 vendor/lib64/libcneoplookup.so|8be657993e35ce52f645cbba3ccc3d7e6a247586
 vendor/lib64/libcneqmiutils.so|4a3626a7879a02d07d3e8975bdac4993be064480
 vendor/lib64/libjnihelper.so|ff98d64ba797eecfb84dc65a0427a3f7c3db99aa
 vendor/lib64/libwms.so|baf03a91f6620dbc1c42f26768f0d7757693503a
 vendor/lib64/libwqe.so|c1683e3a20758b1f7dbf4196d714852b7c0e4a98
-vendor/lib64/libxml.so|508599c61e24268db82580011c2a8f3431b270e0
+vendor/lib64/libxml.so|ffd759d3965671c71c74fabf5d90aeab93c30547
 vendor/lib64/vendor.qti.data.factory@2.0.so|32ae045e796441b65d45e792cebf5be6cbb88751
 vendor/lib64/vendor.qti.data.factory@2.1.so|741b11b3e655f7f0f9db7f284f691f8814b65776
 vendor/lib64/vendor.qti.data.factory@2.2.so|2f56131f4b389f5e39774dd1ff67e6a6fcf95a42
@@ -183,13 +183,13 @@ vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so|3904e6ce6a6a551826e900eb29bc2
 vendor/lib64/vendor.qti.latency@2.0.so|9cb04c14e0bf3369a00ee4c8e227546f5b29bfd7
 vendor/lib64/vendor.qti.latency@2.1.so|bab1a65f6dd0bafb77f5de37c9b3a6ea99533b9b
 
-# Configstore - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# Configstore - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|8faba5310d71eb9d67c5a5e0dbc22ba423f714e7
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede0250585a44b01d351bbc301d7a13cc3d783d
 vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|adae94cab65e5b91553ba8c76a4bdda7b4fdd1f6
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|2163df1cf52ef304f924bcc833947604036f4217
 
-# Data from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# Data from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/ATFWD-daemon|94af1767c77ed9835cbb66b0ba729b71e0044e1a
 vendor/bin/adpl|5f7c75e4a72379700c53a4a62beb145c327971a7
 vendor/bin/ipacm-diag|e04eea3b9431f7cabcdf1b29be9c503d780a232e
@@ -216,14 +216,14 @@ vendor/lib64/libqdi.so|509303942da015ac76166f8ce684487ec5e05c1e
 vendor/lib64/libqdp.so|a5fa81e178350744d829fc3e5b59512e9c418920
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so|861c72278b358e4428963960f3e95c90b30b344b
 
-# Diag - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
-vendor/lib/libdiag.so|28d4e4cb8ecb2fdc0546bcbe4a8d6479d11e89c2
-vendor/lib64/libdiag.so|4cd2eae2890d1ec2c309c4a7a53e5de44f5740c3
+# Diag - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
+vendor/lib/libdiag.so|a7d0954faa3cd4fd80eebe171e121a9b12dc1c5e
+vendor/lib64/libdiag.so|478e950b08940ce4b3100ff338a45fa1a98fe266
 
 # Display - from SPES MIUI
 vendor/etc/SVIConfig.xml|059de71051994f1b24285c5a3b80c79260b4e3a3
 
-# Display - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# Display - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/ppd|c478fa8957564bf1b2649b6ba80c07f72b0b318f
 vendor/bin/qdcmss|536c34abfbf7833df440bfcd264bacdc88318067
 vendor/etc/display/advanced_sf_offsets.xml|de6449ddd7fd4e975ae29ce5aeeda1d6dff275ee
@@ -242,7 +242,7 @@ vendor/lib64/vendor.display.color@1.4.so|ff2233791d4e2c5c0da0f194546c42fc0eb6816
 vendor/lib64/vendor.display.color@1.5.so|de239337ad42863e5eabeff196b20345d0dce00c
 vendor/lib64/vendor.display.postproc@1.0.so|e94ad60150b7b6b1c09133c03341044a32cdfde7
 
-# DPM - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# DPM - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/dpmQmiMgr|8ae4d370cd8ca5f7b22bbfefadc865c3515dd2ef
 vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|ad06856903b163a28135d6c8fd354258e3f0292c
@@ -288,7 +288,7 @@ vendor/lib64/mediadrm/libwvdrmengine.so|1e029b294540037c72690ec5755426f14b98f511
 vendor/lib64/vendor.qti.esepowermanager@1.0.so|86ef3ead4a8ee3f96033e25017faf6d6426130fe
 vendor/lib64/vendor.qti.esepowermanager@1.1.so|4f78b20553be29acb16061ddf176679da0c25658
 
-# EmbmsslServer - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# EmbmsslServer - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/embmsslServer|35b209c57e7ccd2eac19a3c91851d41ab63af3c9
 vendor/etc/init/init.embmssl_server.rc|e2f59e5d6223112bdcfbf9e9e69fe6abea3698b1
 vendor/lib64/libembmsservice.so|797b5cff7b5fb2aac043c3e3b3e0928e1b7c5ea9
@@ -297,7 +297,7 @@ vendor/lib64/vendor.qti.hardware.embmssl@1.0.so|e4fc8e5b0e7e9c609ed8c78309c3d6d8
 vendor/lib64/vendor.qti.hardware.embmssl@1.1-adapter-helper.so|86a03bcc9a34bff0bd29f6c862da248fb81d7d55
 vendor/lib64/vendor.qti.hardware.embmssl@1.1.so|a4f353cac95f9cf034a5a91fe6419f6fb85f3d70
 
-# Factory - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# Factory - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/hw/vendor.qti.hardware.factory@1.0-service|cacf96d37eb787d153ffaa3aa7312524045d8132
 vendor/bin/mmid|dd5fd065fae235b8eb05fbfad3f1ee910bf7316e
 vendor/etc/init/vendor.qti.hardware.factory@1.0-service.rc|b47de7097f6b81ad6a6b05f70a2678861fda69fb
@@ -305,13 +305,13 @@ vendor/etc/permissions/vendor.qti.hardware.factory.xml|bedb01aed43b95943ac60f80c
 vendor/lib64/vendor.qti.hardware.factory@1.0.so|26587947997ade3f691c58176d76a9a706bd187b
 vendor/lib64/vendor.qti.hardware.factory@1.1.so|845ecda4dfe0b2a0fded2d944c12f5ac70e4f081
 
-# FM - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# FM - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|70aef41d8ced7832afc90dcf4ea83623e5e1c265
 vendor/lib/vendor.qti.hardware.fm@1.0.so|c036fbe16575a800994792431d10f6d1173cea26
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|084154df521025d3d6b4402cd8edcd06510e169c
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|2f01b221540ba0c75b34f373b0b1201f10f9f8c0
 
-# Graphics Adreno - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# Graphics Adreno - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/lib/egl/eglSubDriverAndroid.so|1a1c287a32095bede1cd199594cb7fb89c1c15d0
 vendor/lib/egl/libEGL_adreno.so|2b96d33f61340c391cc2a6c503bff6b12f2659ed
 vendor/lib/egl/libGLESv1_CM_adreno.so|64b58204e029c848e35f50ad163952db497ea90f
@@ -347,11 +347,11 @@ vendor/lib64/libgsl.so|cab0ed1d9b9f0a54ccaa53eb39a16a0bbb3636a8
 vendor/lib64/libllvm-glnext.so|3978745ffd7e619a5aa75f86502bddc8dd13ce4b
 vendor/lib64/libllvm-qcom.so|7b470265d6cb64b73fef276ffa7ccaef61150f1e
 
-# Graphics Vulkan - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# Graphics Vulkan - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/lib/hw/vulkan.adreno.so|a2c27b06d6957464f521ae28e3de90b1e6f6a3e7
 vendor/lib64/hw/vulkan.adreno.so|3297bfbcf5798fcce1c8a17ec4e12b715584c693
 
-# IMS - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# IMS - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/ims_rtp_daemon|7a765e05e74c278f7c3cd45ee19477fa00d60f43
 vendor/bin/imsdaemon|a9b3509a6ca02166dbdb016368aacbd1e5b73007
 vendor/etc/init/dataadpl.rc|cd4907d9bfd438fe5f5c86f5d6cec590ac0bac2a
@@ -370,7 +370,7 @@ vendor/lib64/com.qualcomm.qti.uceservice@2.3.so|ceb3e984f877a7c1bc24d97365167152
 vendor/lib64/lib-imscommon.so|c74159e6a1fa03cc7b7240bd22e23c7fa7715b84
 vendor/lib64/lib-imsdpl.so|a214b229442687ac22ec66a3e9b7410c3e356330
 vendor/lib64/lib-imsqimf.so|d4e3a67e7a86dd8a7239119c7e3c41377f83c519
-vendor/lib64/lib-imsrcsservice.so|d13a2d19d66e537fc568caceda736e2eb6c42315
+vendor/lib64/lib-imsrcsservice.so|0e8717da1fd9c7ec7151a4e86c5e81cc2749ead8
 vendor/lib64/lib-imsservice.so|b13a498838be8abe3cb48dd780209fff79cec913
 vendor/lib64/lib-imsvtcore.so|3f323fed2a34c5ceb717375d8a9c627381d51782
 vendor/lib64/lib-imsxml.so|341a391c3631f7ba4720b627a87455b4b9d796d9
@@ -412,7 +412,7 @@ vendor/lib64/vendor.qti.ims.rcsuce@1.2.so|97aea69433d7dfbfc371a9090c2a2aae454b06
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|e0fb13ee2ac98e90b93f5bbe1e4b41d2640148e0
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|6d4b854e7ba91ef98398568c365a131cf4c01c93
 
-# Media - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# Media - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/lib/libOmxAacDec.so|c294bf10a6cc46039ee1cd5052f906acbaa60cde
 vendor/lib/libOmxAacEnc.so|8c6d989c860fe6c3f9da529f0f34d4015f35a76c
 vendor/lib/libOmxAlacDec.so|f8b6d0dcedbcd9c9246c8b8ffc04c16c17ead152
@@ -464,34 +464,34 @@ vendor/lib64/libOmxVenc.so|f9c6bbf293fac62f3d70eee8f3b0c3c9a22cb91d
 vendor/lib64/libOmxWmaDec.so|7c83ae668dbba2f16d26c547baa5956ea2633cc4
 vendor/lib64/libmmosal.so|b6ec24ce3f6c34010f7700891665f66f1c8f3bb6
 
-# PD - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# PD - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/pd-mapper|4aac33918475c5bfa0f51b30cc16ced4c805e6d6
 vendor/lib64/libpdmapper.so|d6058c9ed9f54d7a8066bb1323785f2683e2b517
 vendor/lib64/libpdnotifier.so|b9c908f3f2ba51ee998b4f2be68192a6878f6969
 
-# Peripheral manager - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# Peripheral manager - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/pm-proxy|8ea5c65add4af2dd1503023e8cfdcdf76b961c88
 vendor/bin/pm-service|8db29d527af4c10dad4bf398aa5cea2857ef78b9
 vendor/lib64/libperipheral_client.so|371cc38073c9d9bf8614f992e57a5a9891691191
 
-# QCC - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# QCC - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service|b49b4964ca1b391921b05d0350479bae517a75ae
 vendor/etc/init/vendor.qti.hardware.qccvndhal@1.0-service.rc|afeb332a4750a11587658fcc9a75a27f63bbccdd
 vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so|29dd375362065b3a1655ca0e2d0031450790bcd6
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so|a59a3a39e63cf539c23f18c20db82f6bcaa6a222
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so|154868a579a9d30c86fe5f8aaaa254aaab07c58d
 
-# QCV (SOC Helper) - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# QCV (SOC Helper) - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/init.qti.qcv.sh|355a70cde39583a7f2a07441ba5ab1ed4d7feb18
 vendor/etc/init/init.qti.qcv.rc|1d0cff5660bdf7abc22ac2b960a0dcd88404d740
 vendor/lib64/libsoc_helper.so|cdd194a76c1ff4836411babeb329090c4eae8d3b
 vendor/lib64/libsoc_helper_jni.so|1ed6ebd7bd154e481617ce98273139d2b916094b
 
-# QDMA - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# QDMA - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/qcc-trd|6bb15ef946424d3a86b72d1033de75dbb9b7a562
 vendor/lib64/libqdma_file_agent.so|377992e4f140037383a5fdab1233c79ba7466ab7
 
-# QMI - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# QMI - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/irsc_util|68d97ba7c1d9ed8ca9a9a1673be60680171e711d
 vendor/bin/qrtr-cfg|20f88dc4a2eed437a916cde3d70ccd24a326031f
 vendor/bin/qrtr-lookup|efa9467fadaa99d1993e6531a277730600631582
@@ -530,11 +530,11 @@ vendor/lib64/libqsocket.so|33b007b455cd9bc6897d737a5a325570ee630ff0
 vendor/lib64/libsmemlog.so|ff9ef200029d21b8dd93eca663f120d07be0e3d9
 vendor/lib64/libsystem_health_mon.so|9b13ab7123f78ad044e5dd75f14dc7a4ae8267f3
 
-# RemoteFS - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# RemoteFS - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/rmt_storage|f17d029997b6da068c50b93721e359463f043217
 vendor/etc/init/vendor.qti.rmt_storage.rc|bc212c6353c2ded44ae4d759605fbbe55aa4fa3f
 
-# RIL - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# RIL - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/hw/qcrild|0d58199eb3438e5c23d40740a141db71a6ad1fea
 vendor/bin/qtigetprop|4d0e9e9adb56cdbe4562c2fa54416aa5eb2968e8
 vendor/bin/qtisetprop|232b6b778234ecf9806f4b9d9a4de9c28b70c108
@@ -544,16 +544,16 @@ vendor/lib64/deviceInfoServiceModule.so|a9c723790e61fe0b726bad00b9ea162b93bde543
 vendor/lib64/liblqe.so|b8c0b00c86c2d55a61c07cef90305b4754d0fcce
 vendor/lib64/libqcrilFramework.so|38a975c5a9a94f7057bcd3d06fa1a88413ba7be7
 vendor/lib64/libqcrildatactl.so|cc72e2d110784387e466a90e86a30ff1985b6c39
-vendor/lib64/libril-qc-hal-qmi.so|1a58aa1a8f8addecc2eaa5a3e6ed1f76db8502bc
+vendor/lib64/libril-qc-hal-qmi.so|24f84e2ed16a7843c3fea00e51752f2040027a2b
 vendor/lib64/libril-qc-logger.so|1cc7c649d9afc434aa53ca91d2e120fe0ea9d15f
 vendor/lib64/libril-qc-ltedirectdisc.so|4dc0283802f50d3b6320a9598ededf2c83567ba2
 vendor/lib64/libril-qc-radioconfig.so|4d8cbf8772ebd84978c6b46473071184ed8ee908
 vendor/lib64/libril-qcril-hook-oem.so|113139729889be495c8ca6952db786d846726f83
 vendor/lib64/librilqmiservices.so|3665716e9dc1c9c03cf0eba8cd33da0fb13b2fa9
 vendor/lib64/libsettings.so|4ab74e2fbc5f6016107e1aae1140d258abfb0588
-vendor/lib64/qcril_hal_client.so|da57e9c3a68944a67e27bb53e37d49e5a4d3e7f9
+vendor/lib64/qcril_hal_client.so|485ba92130a374189bedebeae765409d77628bbc
 vendor/lib64/qcrild_librilutils.so|c912087a3ba8a1c0717c5138e188a9f4d6f0bec6
-vendor/lib64/qcrilHalMarshal.so|8b5316c5f4b2a3a885a023f9269bd4400e1dfa37
+vendor/lib64/qcrilHalMarshal.so|f79249b4764f8c803464ef80d1e10d067d4cc83a
 vendor/lib64/qtibus.so|5f9a687ced703193b3993530d0f6118f6604f460
 vendor/lib64/qtimutex.so|be4f5e03ba32609c8730f596a34647ffa0e04434
 vendor/lib64/vendor.qti.hardware.data.connection@1.0.so|997f9550e9814c9d89e83062b95861ba098176f9
@@ -614,13 +614,13 @@ vendor/lib64/libhdcpsrm.so|87e6f70a6478e46eebb2d159608affa7086d27f4
 vendor/lib/android.hardware.secure_element@1.0-impl.so|0947cc1c37e9155bb39de775e8cd03188369935a
 vendor/lib64/android.hardware.secure_element@1.0-impl.so|b206e48000c62c62bfda7b6b004c5ec0605fd481
 
-# SMC Invoke - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# SMC Invoke - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/etc/ssg/ta_config.json|e18554b038da3737b7352d1271e5fde9c789c9df
 vendor/etc/ssg/tz_whitelist.json|6d839497d2ad056f899a9bef8a1ec5916f19fad5
 vendor/lib64/libnative-api.so|fd6cf92e0347452288758b6ecc25b449535ecb61
 vendor/lib64/libqcbor.so|7da5294a577f5a71ede5b3804a026bf69bd025ee
 
-# Snapdragon Computer Vision Engine - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# Snapdragon Computer Vision Engine - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/lib/libfastcvdsp_stub.so|7f27cee24281bc9bf4f08c6100cc66bd650d8efb
 vendor/lib/libscveCommon.so|4be56b846f71f4ba8032471abf9f02dc5b01810c
 vendor/lib/libscveCommon_stub.so|89e1a3d3302b6809ae4ca1d80f6c2e0cd3c3b752
@@ -640,35 +640,35 @@ vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so|2d463ceff139c3132b2c6936be
 -vendor/lib/libfastcvopt.so|eb6e1052f12b45f2f651f1437e6072459648f2f3
 -vendor/lib64/libfastcvopt.so|0796b9092eb285d7689a8e6c4478a88a1d7e6e87
 
-# Soter - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# Soter - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|8e315a85eeeb94a51f1533c80212d2fc0ec88760
 vendor/bin/vendor.qti.hardware.soter@1.0-provision|d1fbc5777ca05a7405b9e65e334b22894cf29155
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|859ca42e0cbd88c896b174e7537c2d17643cf724
 vendor/lib64/vendor.qti.hardware.soter@1.0.so|8251cbf50d81918cb0ab298e4ed26d21748624f0
 
-# SS Restart - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# SS Restart - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/ssr_diag|ed147282b28345b2c70fce3c9217a1fe251ae75f
 vendor/bin/ssr_setup|d099ceb33a16d090e17e5c9b0d6c0ca06f1f61d8
 vendor/bin/subsystem_ramdump|804a1b433124d5bd022e762e536b4ae5e6bb0f2b
 vendor/lib/libsubsystem_control.so|9f4d0578a9a9bfa22e2cf1b72a57c376cbdc60ce
 vendor/lib64/libsubsystem_control.so|eff7dd1899097f8e568e884dfc66ecc12259ae81
 
-# TFTP - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# TFTP - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/tftp_server|101fc62916069a454771b48965e9d4976b662ffc
 vendor/etc/init/vendor.qti.tftp.rc|b27f188cbffba470a4510d50e46ff7c8446c22cb
 
-# Time - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# Time - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 -vendor/app/TimeService/TimeService.apk|92317b3b72586489456d37057b4c3c8e55863923
 vendor/bin/time_daemon|5ac6b1af3c41eecad1e522df8e272db5fab86523
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|17547993adc4fb9cb1cdc1abbd765f4ef9a05f09
 
-# TLOC - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# TLOC - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/tloc_daemon|4b74a8b23a9a9a6f0c4b43e9cfe8e78ca74fdc30
 vendor/etc/init/tloc_daemon.rc|9dd38e92847bc34f8a3228f4cd81ef14b6e89785
 
-# Trusted Execution Environment connector - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# Trusted Execution Environment connector - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|4167b12a9f09c52a4dc1555f243dec17051b8a23
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|55c2f0c1e93fccb49ef9919cd56e5903ac14d517
 vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|dafbd7106e74240a2e70cf55dccbea49d35d2791
@@ -678,10 +678,10 @@ vendor/lib64/libQTEEConnector_listener.so|a05a271a35ff4f558f4665b4467b5eb66f5671
 vendor/lib64/libQTEEConnector_vendor.so|30e5fd8d4fff50083f44f6d0bd09f4bd287a8366
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|e97b21908ec942b5ea6c78100d46398fe1784d0e
 
-# UBWC - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# UBWC - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/lib/libstreamparser.so|49b5a007a6c6ec31a97c00062a421988536f6238
 
-# WiFi Display - from LA.UM.9.15.2.r1-08600-KAMORTA.QSSI12.0
+# WiFi Display - from LA.UM.9.15.2.r1-09100-KAMORTA.QSSI14.0
 vendor/bin/wfdhdcphalservice|768476bd30672982e07937e8a765537cc23481c9
 vendor/bin/wfdvndservice|194bb3aef5237f05d0c8fab2c88846147a6cc55a
 vendor/bin/wifidisplayhalservice|36bddae1febbee1bb53a80646d17c0fe36199757
