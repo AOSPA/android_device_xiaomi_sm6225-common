@@ -35,8 +35,13 @@ on early-boot
     write /sys/bus/msm_subsys/devices/subsys7/restart_level RELATED
 
 on boot
-    chown system system /sys/touchpanel/double_tap
-    chmod 0644 /sys/touchpanel/double_tap
+    # Double Tap Sensor
+    chown system system /sys/devices/platform/soc/4a88000.i2c/i2c-1/1-0038/double_tap_pressed
+    chmod 0660 /sys/devices/platform/soc/4a88000.i2c/i2c-1/1-0038/double_tap_pressed
+
+     # Single Tap Sensor
+    chown system system /sys/devices/platform/soc/4a88000.i2c/i2c-1/1-0038/single_tap_pressed
+    chmod 0660 /sys/devices/platform/soc/4a88000.i2c/i2c-1/1-0038/single_tap_pressed
 
     # Lineage Health
     chmod 0660 /sys/class/power_supply/battery/input_suspend
