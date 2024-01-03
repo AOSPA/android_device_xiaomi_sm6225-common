@@ -72,9 +72,6 @@ BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES  := true
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 
-# DT2W
-TARGET_TAP_TO_WAKE_NODE ?= "/sys/touchpanel/double_tap"
-
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(COMMON_PATH)/configs/hidl/xiaomi_common_framework_compatibility_matrix.xml
 DEVICE_MANIFEST_FILE += $(COMMON_PATH)/configs/hidl/manifest.xml
@@ -102,7 +99,9 @@ BOARD_KERNEL_CMDLINE += \
     msm_rtb.filter=0x237 \
     service_locator.enable=1 \
     swiotlb=2048 \
-    kpti=off
+    kpti=off \
+    init.is_dt2w_sensor=1 \
+    init.is_st2w_sensor=1
 
 ifeq ($(PRODUCT_VIRTUAL_AB_OTA),true)
 BOARD_BOOT_HEADER_VERSION := 3
@@ -174,6 +173,13 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 # Sepolicy
 include device/xiaomi/sepolicy/SEPolicy.mk
 include device/xiaomi/sm6225-common/sepolicy/sm6225-common-sepolicy.mk
+
+# Sensors
+SOONG_CONFIG_NAMESPACES += SENSORS_XIAOMI
+SOONG_CONFIG_SENSORS_XIAOMI += USES_DOUBLE_TAP_SENSOR
+SOONG_CONFIG_SENSORS_XIAOMI_USES_DOUBLE_TAP_SENSOR := true
+SOONG_CONFIG_SENSORS_XIAOMI += USES_SINGLE_TAP_SENSOR
+SOONG_CONFIG_SENSORS_XIAOMI_USES_SINGLE_TAP_SENSOR := true
 
 # Treble flag
 BOARD_VNDK_VERSION := current
