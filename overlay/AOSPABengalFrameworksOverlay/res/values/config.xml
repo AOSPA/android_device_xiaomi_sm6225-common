@@ -19,4 +19,16 @@
     <!-- Whether to show WiFi/Hotspot standard -->
     <bool name="config_show_network_standard">true</bool>
 
+    <!-- Considering the fact that the system might have an incorrect estimation of the time to
+         full. Set a time margin to make the device fully charged before the target time arrives.
+         The unit is minutes and the default value is 30 minutes. If you find that it is not enough
+         to make the device to be fully charged at the target time, increase the value
+    -->
+    <integer name="config_chargingControlTimeMargin">90</integer>
+    <!-- For a device that cannot bypass battery when charging stops (that is, the battery current
+         is 0mA when charging stops), the battery will gradually discharge. So we need to make it
+         recharge when the battery level is lower than a threshold. Set this so that the device
+         will be charged between (limit - val) and limit. -->
+    <integer name="config_chargingControlBatteryRechargeMargin">1</integer>
+
 </resources>
