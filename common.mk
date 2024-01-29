@@ -285,9 +285,12 @@ TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
 
 # LMK
 PRODUCT_PRODUCT_PROPERTIES += \
+    ro.lmk.critical_upgrade=true \
+    ro.lmk.downgrade_pressure=50 \
     ro.lmk.log_stats=true \
     ro.lmk.kill_heaviest_task=true \
     ro.lmk.kill_timeout_ms=100 \
+    ro.lmk.upgrade_pressure=50 \
     ro.lmk.use_minfree_levels=true
 
 # Media
