@@ -333,10 +333,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.recovery.qcom.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.qcom.rc
 
-# Privapp-permissions
-PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    ro.control_privapp_permissions=log
-
 # QC common
 TARGET_BOARD_PLATFORM := bengal
 
