@@ -437,10 +437,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
 
-# WiFi Display
-PRODUCT_PACKAGES += \
-    libwfdaac_vendor:32
-
 # WLAN
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.hardware.wlan.vendor=qcom
