@@ -343,6 +343,7 @@ PRODUCT_PACKAGES += \
     ueventd.xiaomi.rc
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/init/init.qcom.post_boot.legacy.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.post_boot.legacy.sh \
     $(LOCAL_PATH)/init/init.recovery.qcom.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.qcom.rc
 
 # QC common
