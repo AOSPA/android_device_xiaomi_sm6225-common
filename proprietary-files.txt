@@ -234,13 +234,6 @@ vendor/lib64/libdpps.so|aded45bfd6df995e72342f7f4fa6f79dc0c6f226
 vendor/lib64/libmm-hdcpmgr.so|bacafd357b847581239b6d57f733404f6fb94ecc
 vendor/lib64/librcmask.so|c0c6d49dae38389532cfb3cb0b816dc0b1b71051
 vendor/lib64/libsdedrm.so|34e9f34b280f310118ea2b37e11e96d9440f3632
-vendor/lib64/vendor.display.color@1.0.so|f1f7d91884c8e3c9ea300e67f5df91057094de40
-vendor/lib64/vendor.display.color@1.1.so|e7ab973147c3e03e31efacee13e8d8a9c841eb7b
-vendor/lib64/vendor.display.color@1.2.so|fe9ec904459b7675297e5ef6883ae98b438fb77f
-vendor/lib64/vendor.display.color@1.3.so|32c721417938e870d34170c08c93c817e7d4447b
-vendor/lib64/vendor.display.color@1.4.so|ff2233791d4e2c5c0da0f194546c42fc0eb68164
-vendor/lib64/vendor.display.color@1.5.so|de239337ad42863e5eabeff196b20345d0dce00c
-vendor/lib64/vendor.display.postproc@1.0.so|e94ad60150b7b6b1c09133c03341044a32cdfde7
 
 # DPM - from LA.UM.9.15.2.r1-09400-KAMORTA.QSSI14.0
 vendor/bin/dpmQmiMgr|8ae4d370cd8ca5f7b22bbfefadc865c3515dd2ef
