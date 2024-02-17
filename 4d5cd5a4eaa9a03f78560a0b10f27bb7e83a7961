@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "803d3637_69816fa7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000890
+      },
+      "writtenOn": "2024-02-17T04:46:51Z",
+      "side": 1,
+      "message": "This change only concerns devices with Wi-Fi 6 support. Does your device have it?",
+      "revId": "4d5cd5a4eaa9a03f78560a0b10f27bb7e83a7961",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
