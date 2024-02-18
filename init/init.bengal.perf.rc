@@ -78,4 +78,4 @@ on property:vendor.post_boot.parsed=1
     write /dev/stune/schedtune.prefer_idle 0
     write /dev/stune/foreground/schedtune.prefer_idle 1
     write /dev/stune/top-app/schedtune.prefer_idle 1
-    write /dev/stune/top-app/schedtune.boost 10
+    write /dev/stune/top-app/schedtune.boost 1
