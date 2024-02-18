@@ -100,10 +100,6 @@ on boot
 
     setprop persist.bluetooth.a2dp_offload.disabled false
 
-on property:sys.boot_completed=1
-    write /proc/sys/vm/vfs_cache_pressure 50
-    write /proc/sys/vm/swappiness 180
-
 on charger
     start mi_thermald
     chown system system /sys/class/backlight/panel0-backlight/brightness
