@@ -26,6 +26,7 @@ genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-0065/wakeup            
 genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-0065/power/wakeup                                                                                                                 u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-0066/power/wakeup                                                                                                                 u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-004e/tcpc/type_c_port0/wakeup                                                                                                     u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-004e/wakeup                                                                                                                       u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-004e/wakeup/wakeup                                                                                                                u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-006a/power_supply/bbc/wakeup                                                                                                      u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-004e/tcpc/type_c_port0/dual-role-type_c_port0/wakeup                                                                              u:object_r:sysfs_wakeup:s0
@@ -70,6 +71,7 @@ genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-3/3-006a/wakeup			         
 genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-3/3-004e/tcpc/type_c_port0/wakeup                                                                                                     u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-3/3-004e/tcpc/type_c_port0/dual-role-type_c_port0/wakeup                                                                              u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/4a88000.spi/spi_master/spi0/spi0.0/wakeup                                                                                                             u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/4a90000.i2c/i2c-2/2-0008/wakeup                                                                                                                       u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc//i2c-0/0-004e/tcpc/type_c4a84000.i2c_port0/wakeup                                                                                                     u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/abb0000.qcom,cvpss/wakeup                                                                                                                             u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/6080000.qcom,mss/subsys2/wakeup			                                                                                                           u:object_r:sysfs_wakeup:s0
