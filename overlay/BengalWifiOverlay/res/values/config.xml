@@ -6,9 +6,6 @@
 
 <resources>
 
-    <!-- dual sap mode is supported on this device. -->
-    <bool name="config_wifi_dual_sap_mode_enabled">false</bool>
-
     <!-- Indicates whether or not the WLAN driver supports the NL80211_CMD_REG_CHANGE or
          NL80211_CMD_WIPHY_REG_CHANGE events which indicate the current country code which is
          being used by the WLAN driver. If the driver doesn't support these events
