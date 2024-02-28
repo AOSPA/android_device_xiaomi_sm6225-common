@@ -15,11 +15,11 @@
 runtime_resource_overlay {
     name: "BengalWifiOverlay",
     manifest: "AndroidManifest.xml",
-    product_specific: true,
+    vendor: true,
 }
 
 runtime_resource_overlay {
     name: "WifiMainline",
     manifest: "AndroidGoogleManifest.xml",
-    product_specific: true,
+    vendor: true,
 }
