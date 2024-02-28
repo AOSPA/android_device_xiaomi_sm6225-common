@@ -16,6 +16,24 @@
       "message": "typo in commit message",
       "revId": "286f69675658da700ec4af71408076a81ea4cd35",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a82b3eca_a558ca25",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000737
+      },
+      "writtenOn": "2024-02-28T11:50:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9766a293_f9f6b18a",
+      "revId": "286f69675658da700ec4af71408076a81ea4cd35",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
