@@ -1,15 +1,4 @@
 # LA.UM.9.15.2.r1-09400-KAMORTA.QSSI14.0 blobs from bengal
-# LA.VENDOR.1.0.r1-15600-WAIPIO blobs from taro
-
-# ACDB - from LA.VENDOR.1.0.r1-15600-WAIPIO
-vendor/etc/acdbdata/bengal_idp/IDP_acdb_cal.acdb|fab9d9cbea770f295a1008cb1366d432eec62c81
-vendor/etc/acdbdata/bengal_idp/IDP_workspaceFileXml.qwsp|5f56c0cb5d27755e5db26f9ffcc5756e10753460
-vendor/etc/acdbdata/bengal_qrd/QRD_acdb_cal.acdb|278f923deace47b1fc766e9e1a5a527fe0422dc6
-vendor/etc/acdbdata/bengal_qrd/QRD_workspaceFileXml.qwsp|82216a3aaf9efdb42114d1b37ce7f9b33759f453
-vendor/etc/acdbdata/bengal_scubaidp/IDP_scuba_acdb_cal.acdb|fab9d9cbea770f295a1008cb1366d432eec62c81
-vendor/etc/acdbdata/bengal_scubaidp/IDP_scuba_workspaceFileXml.qwsp|5f56c0cb5d27755e5db26f9ffcc5756e10753460
-vendor/etc/acdbdata/bengal_scubaqrd/QRD_scuba_acdb_cal.acdb|278f923deace47b1fc766e9e1a5a527fe0422dc6
-vendor/etc/acdbdata/bengal_scubaqrd/QRD_scuba_workspaceFileXml.qwsp|82216a3aaf9efdb42114d1b37ce7f9b33759f453
 
 # ADSP - from LA.UM.9.15.2.r1-09400-KAMORTA.QSSI14.0
 vendor/bin/adsprpcd|2886f08eb674b6ced8bf6e9bb54761094ee7b74c
@@ -29,17 +18,6 @@ vendor/lib64/vendor.qti.hardware.dsp@1.0.so|2b6b1ffd336e7524240cf9627b0fcec75e8e
 # ANT+ - from LA.UM.9.15.2.r1-09400-KAMORTA.QSSI14.0
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so|ecdf9f24262c49031c470b14a27d3f99d2b47ff4
 
-# Audio Dirac - from xiaomi
-lib/libDiracAPI_SHARED.so:vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
-lib/soundfx/libdirac.so:vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
-vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
-
-# Audio FTM - from SPES MIUI
-vendor/etc/ftm_test_config|42e2606119149cba86078dda8cfa4cb7e03b4546
-vendor/etc/ftm_test_config_bengal-qrd-snd-card|26935d4e79442e6dc7bed1232b19d198632f42a1
-vendor/etc/ftm_test_config_bengal-scubaidp-snd-card|084ec1fab58d90238315594d8c5d25fb31b826d9
-vendor/etc/ftm_test_config_bengal-scubaqrd-snd-card|4d4267fae191c952e0904b9977ba8ee4533d71c2
-
 # Audio FX - from SPES MIUI
 vendor/lib/soundfx/libasphere.so|b2daeb875914a33575c7d7a67429f25d09d35489
 vendor/lib/soundfx/libmisoundfx.so|f16d3828236fb590ff8cf529175c92cab173c940
@@ -47,18 +25,6 @@ vendor/lib/soundfx/libqcbassboost.so|cc5ec98ec56b02bdb9f6b1de0a2a4e0f2b18c315
 vendor/lib/soundfx/libqcreverb.so|ee603092ab4e939eb289d35a17bddd37f7f9835f
 vendor/lib/soundfx/libqcvirt.so|67da89cce00148dddeb4991697c9773376e39d8b
 vendor/lib/soundfx/libshoebox.so|214d5fefd21c617bdfa05255fe667127b4242556
-
-# Audio FX OzoAudio - from SPES MIUI
-system_ext/lib/libav_ozodecoder.so:vendor/lib/libav_ozodecoder.so|2c0f340e21c9c849397cfdeffe6f6ddd3362fe3d
-system_ext/lib/libav_ozoencoder.so:vendor/lib/libav_ozoencoder.so|b5932b0044aad5fac2af686f8e044350726deab4
-system_ext/lib/libozoaudio.so:vendor/lib/libozoaudio.so|f7a9df3949ab575448b8140dde70ae2acb397607
-system_ext/lib/libozowidening.so:vendor/lib/libozowidening.so|49c7d0dcf08ebacd84ee65644b7eaea6d566785a
-system_ext/lib/soundfx/libozoprocessing.so:vendor/lib/soundfx/libozoprocessing.so|a926676ce967bd18e19ee405cd066c467f46da09
-system_ext/lib64/libav_ozodecoder.so:vendor/lib64/libav_ozodecoder.so|c15364ddfacc6bc7108e4776b3d8a6f20318441f
-system_ext/lib64/libav_ozoencoder.so:vendor/lib64/libav_ozoencoder.so|f7acc9859603106ffe112cabfac054399b22e1a4
-system_ext/lib64/libozoaudio.so:vendor/lib64/libozoaudio.so|b13304b91911c7bc2f6c0e4c6e09b0a8b4dc94bf
-system_ext/lib64/libozowidening.so:vendor/lib64/libozowidening.so|957d749a4b1c1874124d2fbdf4981e927922bc9e
-system_ext/lib64/soundfx/libozoprocessing.so:vendor/lib64/soundfx/libozoprocessing.so|779f3a60ba16060aac0aa381f3890418d4264d20
 
 # Bluetooth - from SPES MIUI
 system_ext/bin/aptxalsOverlayCreateProject.sh|5f3a2a73fab7ed611b3481bbd9ac26ee56526032

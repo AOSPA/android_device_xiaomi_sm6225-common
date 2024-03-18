@@ -75,22 +75,10 @@ PRODUCT_SYSTEM_PROPERTIES += \
     ro.config.vc_call_vol_steps=11
 
 PRODUCT_VENDOR_PROPERTIES += \
-    persist.vendor.audio.ozo.codec.enable=true \
     ro.audio.monitorRotation=true \
-    ro.vendor.audio.afe.record=true \
     ro.vendor.audio.misound.bluetooth.enable=true \
-    ro.vendor.audio.scenario.support=false \
     ro.vendor.audio.soundfx.type=mi \
-    ro.vendor.audio.soundfx.usb=true \
-    ro.vendor.audio.sfx.earadj=true \
-    ro.vendor.audio.sfx.scenario=false \
-    ro.vendor.audio.spk.clean=true \
-    ro.vendor.audio.sos=true \
-    ro.vendor.audio.surround.support=false \
-    ro.vendor.audio.vocal.support=false \
-    ro.vendor.audio.voice.change.support=true \
-    ro.vendor.audio.voice.change.version=2 \
-    vendor.audio.chk.cal.us=0
+    ro.vendor.audio.soundfx.usb=true
 
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.audio.soundtrigger.appdefine.cnn.level=31 \
@@ -116,10 +104,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     bluetooth.hardware.power.rx_cur_ma=75 \
     bluetooth.hardware.power.tx_cur_ma=93
 
-PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    persist.sys.btsatck.absvolfeature=true \
-    persist.vendor.service.bdroid.soc.alwayson=true
-
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.bluetooth.modem_nv_support=true \
     persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aac-aptx-aptxhd-ldac-aptxadaptive \
@@ -141,10 +125,6 @@ PRODUCT_PACKAGES += \
     libstdc++_vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
-
-PRODUCT_SYSTEM_PROPERTIES += \
-    persist.vendor.camera.aon.cameraId=8 \
-    persist.vendor.camera.aon8475.cameraId=9
 
 PRODUCT_VENDOR_PROPERTIES += \
     camera.disable_zsl_mode=1
@@ -180,13 +160,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/parts/privapp-permissions-parts.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-parts.xml
-
-PRODUCT_VENDOR_PROPERTIES += \
-    ro.audio.soundfx.dirac=true \
-    persist.audio.dirac.speaker=true \
-    persist.dirac.acs.controller=qem \
-    persist.dirac.acs.storeSettings=1 \
-    persist.dirac.acs.ignore_error=1
 
 # Cutout
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -446,10 +419,6 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 PRODUCT_VENDOR_PROPERTIES += \
     ro.telephony.iwlan_operation_mode=legacy
-
-# Zygote
-PRODUCT_SYSTEM_PROPERTIES += \
-    zygote.critical_window.minute=10
 
 # Inherit from vendor
 $(call inherit-product, vendor/xiaomi/sm6225-common/sm6225-common-vendor.mk)

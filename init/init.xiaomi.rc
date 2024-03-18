@@ -12,22 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-on init
-    chmod 0664 /sys/class/thermal/thermal_message/sconfig
-    chown system system /sys/class/thermal/thermal_message/sconfig
-    chmod 0666 /sys/class/thermal/thermal_message/temp_state
-    chown system system /sys/class/thermal/thermal_message/temp_state
-
-    #disable absolute volume
-    setprop  persist.bluetooth.disableabsvol true
-    setprop  persist.sys.btsatck.absvolfeature false
-    setprop  persist.vendor.bt.a2dp.absvolfeature false
-
-on property:persist.vendor.bt.a2dp.absvolfeature=true
-       setprop persist.vendor.bt.a2dp.absvolfeature false
-on property:persist.sys.btsatck.absvolfeature=true
-       setprop persist.sys.btsatck.absvolfeature false
-
 on post-fs-data
     mkdir /data/vendor/thermal 0771 root system
     mkdir /data/vendor/thermal/config 0771 root system
@@ -97,8 +81,6 @@ on boot
     chmod 0777 /sys/class/ant_div_class/ant_div_state
     chown system system /sys/class/ant_class/ant_state
     chown system system /sys/class/ant_div_class/ant_div_state
-
-    setprop persist.bluetooth.a2dp_offload.disabled false
 
 on charger
     start mi_thermald
