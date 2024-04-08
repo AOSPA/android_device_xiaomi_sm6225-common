@@ -14,6 +14,8 @@ allow hal_fingerprint_default vendor_hal_perf_hwservice:hwservice_manager find;
 allow hal_fingerprint_default system_data_root_file:dir r_dir_perms;
 allow hal_fingerprint_default sysfs_devices_system_cpu:file rw_file_perms;
 allow hal_fingerprint_default fingerprint_vndservice:service_manager { add find };
+allow hal_fingerprint_default vendor_sysfs_battery_supply:dir { search };
+allow hal_fingerprint_default vendor_sysfs_battery_supply:file { open read };
 allow hal_fingerprint_default vendor_sysfs_spss:dir { search };
 allow hal_fingerprint_default vendor_sysfs_spss:file { open read };
 allow hal_fingerprint_default sysfs:file { write };
