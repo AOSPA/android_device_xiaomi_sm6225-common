@@ -41,6 +41,7 @@ allow hal_fingerprint_default {
   vendor_sysfs_fps_attr
   vendor_sysfs_graphics
   vendor_sysfs_spss
+  vendor_sysfs_battery_supply
 }:file rw_file_perms;
 
 # Allow hal_fingerprint_default to read QDSP and XDSP device
