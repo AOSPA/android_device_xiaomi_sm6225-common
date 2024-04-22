@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "65a8d8de_18771215",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000890
+      },
+      "writtenOn": "2024-04-22T06:08:18Z",
+      "side": 1,
+      "message": "Do fix authorship: https://git.codelinaro.org/clo/la/platform/vendor/qcom/pineapple/-/commit/f2fb781a7380d7a5935bf318a639a79931415f65",
+      "revId": "7bb34fecd2de7e9248bbf9b605d9fa999ad32306",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
