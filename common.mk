@@ -288,6 +288,7 @@ PRODUCT_PACKAGES += \
     BengalSettingsOverlay \
     BengalSystemUIOverlay \
     BengalWifiOverlay \
+    DeviceAsWebcamOverlay \
     WifiMainline
 
 # Perf
@@ -405,6 +406,9 @@ ifneq ($(TARGET_BUILD_VARIANT),user)
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.usb.config=mtp,adb
 endif
+
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.usb.uvc.enabled=true
 
 PRODUCT_HAS_GADGET_HAL := true
 
