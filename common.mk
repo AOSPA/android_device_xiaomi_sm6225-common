@@ -289,6 +289,7 @@ PRODUCT_PACKAGES += \
     BengalSettingsOverlay \
     BengalSystemUIOverlay \
     BengalWifiOverlay \
+    DeviceAsWebcamOverlay \
     WifiMainline
 
 # Perf
@@ -407,7 +408,9 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.usb.config=mtp,adb
 endif
 
-# USB
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.usb.uvc.enabled=true
+
 PRODUCT_HAS_GADGET_HAL := true
 
 # Verified Boot
