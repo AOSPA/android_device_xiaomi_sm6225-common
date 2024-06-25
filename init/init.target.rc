@@ -61,8 +61,6 @@ on fs
     mkdir /mnt/vendor/persist/data 0700 system system
 
 on late-fs
-    wait_for_prop hwservicemanager.ready true
-    exec_start wait_for_keymaster
     mount_all /vendor/etc/fstab.qcom --late
 
 on post-fs-data
