@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "10482e0f_c96cc825",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000469
+      },
+      "writtenOn": "2024-07-16T15:25:32Z",
+      "side": 1,
+      "message": "still doesnt explain why it needs to be disabled for these devices specifically, but ok",
+      "revId": "536b6ad6095fea19e60b47205f1dfccc2cba463f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
