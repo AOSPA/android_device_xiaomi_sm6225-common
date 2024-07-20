@@ -170,7 +170,7 @@ PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0.vendor
 
 PRODUCT_VENDOR_PROPERTIES += \
-    debug.sf.disable_backpressure=1 \
+    debug.sf.enable_gl_backpressure=0 \
     debug.sf.layer_caching_active_layer_timeout_ms=1000 \
     debug.hwui.skia_atrace_enabled=false \
     ro.vendor.display.sensortype=2 \
