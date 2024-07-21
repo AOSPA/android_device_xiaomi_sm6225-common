@@ -44,7 +44,7 @@ on property:sys.boot_completed=1
     chmod 440 /proc/net/unix
 
 on property:ro.boot.hwversion=*
-    setprop ro.boot.hardware.revision ${ro.boot.hwversion}
+    setprop ro.boot.hardware.revision ${ro.boot.hwc}_${ro.boot.hwlevel}_${ro.boot.hwversion}
 
 on property:ro.boot.hwname=*
     setprop ro.boot.product.hardware.sku ${ro.boot.hwname}
