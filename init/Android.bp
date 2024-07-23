@@ -65,3 +65,37 @@ sh_binary {
     src: "init.qti.early_init.sh",
     vendor: true,
 }
+
+// fstab
+soong_config_module_type {
+    name: "xiaomi_bengal_rootdir_prebuilt_etc",
+    module_type: "prebuilt_etc",
+    config_namespace: "XIAOMI_BENGAL",
+    variables: ["PARTITION_SCHEME"],
+    properties: ["src"],
+}
+
+soong_config_string_variable {
+    name: "PARTITION_SCHEME",
+    values: ["a", "vab"],
+}
+
+xiaomi_bengal_rootdir_prebuilt_etc {
+    name: "fstab.qcom",
+    soong_config_variables: {
+        PARTITION_SCHEME: {
+            a: {
+                src: "fstab.qcom",
+            },
+            vab: {
+                src: "fstab_AB.qcom",
+            },
+            conditions_default: {
+                src: "fstab.qcom",
+            },
+        },
+    },
+    vendor: true,
+    ramdisk_available: true,
+    vendor_ramdisk_available: true,
+}
