@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6570193_e192e226",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001069
+      },
+      "writtenOn": "2024-08-13T18:30:30Z",
+      "side": 1,
+      "message": "Tried to build Uvite for fog with these changes, built successfully, but I didn`t notice any impact on performance or battery backup, need more testing",
+      "revId": "b9d60048530684990b6f965be17526a70b44cbe9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
