@@ -99,6 +99,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 # Bluetooth
 TARGET_USE_AIDL_QTI_BT_AUDIO := true
 
+PRODUCT_COPY_FILES += \
+    frameworks/av/services/audiopolicy/config/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_in_audio_policy_configuration.xml \
+    frameworks/av/services/audiopolicy/config/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration.xml
+
 PRODUCT_PRODUCT_PROPERTIES += \
     bluetooth.hardware.power.idle_cur_ma=7 \
     bluetooth.hardware.power.operating_voltage_mv=3700 \
@@ -167,6 +171,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_hide_display_cutout=true
 
 # Display
+TARGET_USE_AIDL_QTI_MEMTRACK := true
+
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0.vendor
 
