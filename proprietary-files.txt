@@ -31,7 +31,6 @@ vendor/lib/libbatterylistener.so|71b4da03bdc4522b8829370093ebca3c90e86799
 vendor/lib64/libbatterylistener.so|ebd7be328d91c09eaf2073f78cb31560a882438b
 
 # Bluetooth - from SPES MIUI
-system_ext/bin/aptxalsOverlayCreateProject.sh|5f3a2a73fab7ed611b3481bbd9ac26ee56526032
 system_ext/etc/bluetooth/leaudio_configs.xml|9bcdda1267740f85c1f3581697d20c2967f3f7a8
 
 # Bluetooth - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
