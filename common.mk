@@ -253,6 +253,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/keylayout/,$(TARGET_COPY_OUT_VENDOR)/usr/keylayout)
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.xiaomi
+
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
