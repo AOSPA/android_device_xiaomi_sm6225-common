@@ -231,8 +231,8 @@ vendor/lib64/libminkdescriptor.so|7237570df0118124564a85a34a387e9cba7e3cd3
 vendor/lib64/libminksocket.so|75163021563b6bd6b3722ab5f11d8d82aa543b3a
 vendor/lib64/liboemcrypto.so|706af3d14e2b54d176b93719e02ee6d7539bc05c
 vendor/lib64/libtrustedapploader.so|030366cf9b29f9beacea371f1c2a8781664be851
-vendor/lib64/libwvhidl.so|5edd6ed8c6d586b02053b526acf654019e52b395
-vendor/lib64/mediadrm/libwvdrmengine.so|1af84e71b27d25d43a3e5752ad5e54a682a15911
+vendor/lib64/libwvhidl.so|d128c1b66981267c78ed8e4cfff41a6e78a88589
+vendor/lib64/mediadrm/libwvdrmengine.so|46d0a7caf346d87bce97005bf730bbd7524a77f2
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
 
 # Embedded Secure Element power manager - from SPES MIUI
@@ -553,7 +553,7 @@ vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so|2d463ceff139c3132b2c6936be
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|8e315a85eeeb94a51f1533c80212d2fc0ec88760
 vendor/bin/vendor.qti.hardware.soter@1.0-provision|d1fbc5777ca05a7405b9e65e334b22894cf29155
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
-vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|8cee107e4f8ce6859335432cab7cb7b89803224c
+vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|dd1dd5a61bd7f7e13408ec8e0b430aef7f8fc807
 vendor/lib64/vendor.qti.hardware.soter@1.0.so|8251cbf50d81918cb0ab298e4ed26d21748624f0
 
 # SS Restart - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
@@ -601,7 +601,7 @@ vendor/bin/wifidisplayhalservice|36bddae1febbee1bb53a80646d17c0fe36199757
 vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc|c266f08783a17f6583e3f22c85e55b0c200442ea
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc|576ce4393b7746b77a230745aa9e9ee3bd31b17d
 vendor/etc/init/wfdvndservice.rc|42e28fb8e0bf00620d7b9939b5bd3164ca671033
-vendor/etc/seccomp_policy/wfdhdcphalservice.policy|23b46af886f3233c2bddff87507ae8d37c31c022
+vendor/etc/seccomp_policy/wfdhdcphalservice.policy|dd6e81ec3276f4ea6082c41ede96c8155dbf24eb
 vendor/etc/seccomp_policy/wfdvndservice.policy|b46f0c22a1f9b65c6750205e161c0a3f84ac716b
 vendor/etc/seccomp_policy/wifidisplayhalservice.policy|698f46d3a3b89be125e2fe88439c770e5c647037
 vendor/etc/wfdconfig.xml|9e13371f7ae509cc0bbb3f2ace93c5ea5d87bf0f
