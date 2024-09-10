@@ -197,7 +197,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor \
     android.hardware.drm-service.clearkey \
-    libcrypto-v33
+    libcrypto_shim
 
 PRODUCT_VENDOR_PROPERTIES += \
     drm.service.enabled=true
