@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "231c85a5_02965fcb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000890
+      },
+      "writtenOn": "2024-09-15T15:21:28Z",
+      "side": 1,
+      "message": "do provide authorship instead of just referencing the commit kthx.",
+      "revId": "1ad3f7008ef774bce960a1183fd6ad574517f0e6",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
