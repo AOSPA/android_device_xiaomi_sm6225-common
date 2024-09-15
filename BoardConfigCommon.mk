@@ -163,9 +163,6 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 include device/xiaomi/sepolicy/SEPolicy.mk
 include device/xiaomi/sm6225-common/sepolicy/SEPolicy.mk
 
-# Treble flag
-BOARD_VNDK_VERSION := current
-
 # WiFi
 CONFIG_ACS := true
 
