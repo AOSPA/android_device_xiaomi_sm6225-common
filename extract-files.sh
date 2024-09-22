@@ -65,7 +65,11 @@ function blob_fixup() {
         vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so | vendor/lib/libbluetooth_audio_session_qti_2_1.so | vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so | vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so | vendor/lib64/libbluetooth_audio_session_qti_2_1.so | vendor/lib64/libqcrildataqos.so)
             "${PATCHELF}" --remove-needed libhidltransport.so "${2}"
             ;;
-    esac
+        vendor/lib64/mediadrm/libwvdrmengine.so|vendor/lib64/libwvhidl.so)
+            [ "$2" = "" ] && return 0
+            grep -q "libcrypto-v33.so" "${2}" || "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v33.so" "$2"
+            ;;
+     esac
 }
 
 if [ -z "${ONLY_TARGET}" ]; then
