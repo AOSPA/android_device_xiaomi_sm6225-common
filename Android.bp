@@ -23,6 +23,14 @@ prebuilt_hidl_interfaces {
     ],
 }
 
+prebuilt_hidl_interfaces {
+    name: "hidl_vppservice_interface",
+    interfaces: [
+        "vendor.qti.hardware.vpp@1.1::IHidlVppService",
+        "vendor.qti.hardware.vpp@1.2::IHidlVppService",
+    ],
+}
+
 install_symlink {
     name: "firmware_wlan_mac.bin_symlink",
     vendor: true,
