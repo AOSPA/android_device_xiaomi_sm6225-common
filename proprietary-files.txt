@@ -77,6 +77,7 @@ vendor/bin/cdsprpcd|2257675e907dce9ed4a328d66caae44096221bb8
 vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
 vendor/lib/libcdsp_default_listener.so|7253ad76e4d1ca9311b99cdbfe0e36c2b489afc3
 vendor/lib/libcdsprpc.so|6b82904772f244b4c491ec214d1c70b5ce85432d
+vendor/lib/libfastcrc.so|c375e138d9a25c65014e06f08b47e46e8bc88d43
 vendor/lib/libmdsprpc.so|2ccbd01cdbba304dda47a9ace532b33b7eac6398
 vendor/lib/libsdsprpc.so|7d32977d114262be32ac22daa25773d0c4dbd4f7
 vendor/lib/libsysmon_cdsp_skel.so|b0dd56ca83493e68dc7610d44045849bb3bd8c38
@@ -631,6 +632,11 @@ vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|e97b21908ec942b5ea6c78100d
 
 # UBWC - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
 vendor/lib/libstreamparser.so|49b5a007a6c6ec31a97c00062a421988536f6238
+vendor/lib/libvideoutils.so|8386c94816eb456f8eb78c2203da3aedd35226d1
+
+# VPP - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
+vendor/lib64/vendor.qti.hardware.vpp@1.1.so|05c88622d43390c3b4a216755b44c2e034c282e8
+vendor/lib64/vendor.qti.hardware.vpp@1.2.so|fcda1d2266d3f66015cd6506b7f496a2033db3d8
 
 # WiFi Display - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
 vendor/bin/wfdhdcphalservice|768476bd30672982e07937e8a765537cc23481c9
