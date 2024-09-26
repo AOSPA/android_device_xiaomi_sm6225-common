@@ -279,6 +279,23 @@ PRODUCT_SYSTEM_PROPERTIES += \
     ro.lmk.use_minfree_levels=true
 
 # Media
+$(call inherit-product-if-exists, hardware/qcom/media/product.mk)
+
+PRODUCT_COPY_FILES += \
+    device/qcom/common/vendor/media/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml
+
+PRODUCT_PACKAGES += \
+    libavservices_minijail.vendor \
+    libcodec2_hidl@1.0.vendor \
+    libcodec2_vndk.vendor \
+    libgui_vendor \
+    libstagefright_softomx.vendor
+
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    media.settings.xml=/vendor/etc/media_profiles_vendor.xml \
+    media.stagefright.thumbnail.prefer_hw_codecs=true \
+    ro.media.recorder-max-base-layer-fps=60
+
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     media.aac_51_output_enabled=true \
     media.stagefright.enable-aac=true \
@@ -350,7 +367,6 @@ TARGET_COMMON_QTI_COMPONENTS += \
     gps \
     init \
     keymaster \
-    media \
     overlay \
     perf \
     telephony \
