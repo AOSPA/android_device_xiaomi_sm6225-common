@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1c1324fc_64d1ce2a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000890
+      },
+      "writtenOn": "2024-09-27T15:59:22Z",
+      "side": 1,
+      "message": "Do you actually have this issue? This issue only affected SM8450+ AFAIK.",
+      "revId": "0d65501bb20cb097d60f01705ff4ce55fc603847",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
