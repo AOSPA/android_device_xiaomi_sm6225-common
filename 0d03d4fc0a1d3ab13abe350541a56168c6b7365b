@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "91652f6a_58f9ee96",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000890
+      },
+      "writtenOn": "2024-09-29T18:17:45Z",
+      "side": 1,
+      "message": "Does this not break upgrade path ? Last I tested on AOSP it did",
+      "revId": "0d03d4fc0a1d3ab13abe350541a56168c6b7365b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
