@@ -41,6 +41,8 @@ genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-0066/max77729-fuelgauge
 genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-0066/max77729-fuelgauge/power_supply/bms/power/wakeup                         u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-0066/max77729-charger/wakeup                                                  u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-0066/max77729-charger/power_supply/bbc/power/wakeup                           u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-0066/max77729-fuelgauge/power_supply/bms/wakeup29                             u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-0066/max77729-charger/power_supply/bbc/wakeup35                               u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-0066/max77729-charger/power_supply/otg/power/wakeup                           u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-2/2-0066/power_supply/bq2597x-standalone/wakeup                                   u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-3/3-0066/power_supply/bq2597x-standalone/wakeup                                   u:object_r:sysfs_wakeup:s0
