@@ -24,6 +24,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+# Inherit from vendor
+$(call inherit-product, vendor/xiaomi/sm6225-common/sm6225-common-vendor.mk)
+
 # A/B
 ifeq ($(TARGET_IS_VAB),true)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
@@ -481,6 +484,3 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 PRODUCT_VENDOR_PROPERTIES += \
     ro.telephony.iwlan_operation_mode=legacy
-
-# Inherit from vendor
-$(call inherit-product, vendor/xiaomi/sm6225-common/sm6225-common-vendor.mk)
