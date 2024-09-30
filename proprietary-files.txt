@@ -30,40 +30,34 @@ vendor/lib/soundfx/libshoebox.so|214d5fefd21c617bdfa05255fe667127b4242556
 vendor/lib/libbatterylistener.so|71b4da03bdc4522b8829370093ebca3c90e86799
 vendor/lib64/libbatterylistener.so|ebd7be328d91c09eaf2073f78cb31560a882438b
 
-# Bluetooth - from SPES MIUI
-system_ext/bin/aptxalsOverlayCreateProject.sh|5f3a2a73fab7ed611b3481bbd9ac26ee56526032
-
-# Bluetooth - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|b0f73b4ac1a88607ec90b514b9602de423bb9be6
-vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
-vendor/lib/btaudio_offload_if.so|a6a47f8397048e0286d6291b1996d6af16cbe241
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|57f6e2f04b4c965baaf295b587ecfda0a1a73f26
-vendor/lib/hw/audio.bluetooth_qti.default.so|6ce26888f5b67e3e211a7cfe11554d842162ae07
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|7d9503fce83522d27bcdae531a4e0b320281f85f
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|571b93dc5978271f08a06a82e79d0fc1e0b06a38
-vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|6a950eaa3066fcba19e1d94a04e5823059a951a8
-vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|de18f44f36a89f8fb8c8b6f5d2e0bff73acaabea
-vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|b2d984f5f0ed37f70b63a22d4d351d38b5c5e372
-vendor/lib/libbluetooth_audio_session_qti.so|0b306bac29ba1beff74c9e84785f0e77efb4402c
-vendor/lib/libbluetooth_audio_session_qti_2_1.so|17366b19ce54e64e03b993e0289bc6b470a4525b
-vendor/lib/libbt-hidlclient.so|2648e2161b8423073a6449a4ec72b3fb33123e7a
-vendor/lib/libbtnv.so|887149605c2f810e9e996354d24d2fdd39d13e5c
-vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|42595c79d388cc5ba1c2f50a0caa20640d5d5708
-vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so|b719b696b47d5ba10547bc7a969dd527e61ba650
-vendor/lib64/btaudio_offload_if.so|7c3dfa53e70b7706f1a69e56a9dda109b6ac500c
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|9e870e95c101f27195970d184776b7e8d14ceb51
-vendor/lib64/hw/audio.bluetooth_qti.default.so|e7f73d58e5f2a8ba9bb6aad8c5637c10841b066b
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|e30c268c385d3a75f86969e70c91410d2ab8b5bb
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|467b73e1307dfb7ff09590e5120ecccfbbb6820a
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|6afb681f9876d632c1369b11672a46e5d56b28c7
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|473f93f5d500186121d4b844b388a83e1e22297d
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|91fc2e9d2560ff260e83f044d0dd05ab50dfa9ad
-vendor/lib64/libbluetooth_audio_session_qti.so|5bd4b55dc98a0e67200ff5e84196667390e1a0e7
-vendor/lib64/libbluetooth_audio_session_qti_2_1.so|b29e723dd39d2932509f4c26fb6e71ef17b0063d
-vendor/lib64/libbt-hidlclient.so|13e7ae0f423841ea5d6b722446acad3bbebf89ee
-vendor/lib64/libbtnv.so|7973f6eeaa23f85709682e6fca66d589f514563d
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|0eef499251b171cbb4099786fdc3c9877eb77a8e
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|6e36d92f07d5adee0f3b3379a28788c75fd63365
+# Bluetooth - from fuxi_global-user 13 TKQ1.221114.001 V816.0.5.0.UMCMIXM
+vendor/bin/hw/android.hardware.bluetooth@1.1-service-qti|8b5082a208b4d3a181c1c3b216f790d7d61463b8
+vendor/etc/init/android.hardware.bluetooth@1.1-service-qti.rc|809312d943f5194c464f4edcdf172c09d0be0b0b
+vendor/etc/vintf/manifest/bluetooth_audio.xml|5cdd9a3c4fbd6cde75aa207af8f1bb0177eb8924
+vendor/etc/vintf/manifest/bttpi-saidl.xml|d261b1bb5fdfae4f314515b122f6c20c667f09b0
+vendor/lib64/hw/android.hardware.bluetooth.audio-impl-qti.so|968340d80c7671fff324218e1ca2a2b83e4bed81
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|c1cb04a881d88dcd547aafa68b65ce5904a8d887
+vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-qti.so|589f3e5acaa24397f75d676bc233e94124eeac39
+vendor/lib64/hw/audio.bluetooth_qti.default.so|230305366606bb8ab16b01dd55d75c7ad4a204e5
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|a4d96896b60af5ff0090c53e48a2ededaf649ff2
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|269d1fba34987ba1b34d803b2dcff568fa4bba0c
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|923c614eed5f4bdcc939e392f334ddf5d347e0d0
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|130053576213077e476ab217f097ff283b70f8c8
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|cd746e543449aa5294424b8b91f2641b9e80130c
+vendor/lib64/hw/vendor.qti.hardware.bttpi-impl.so|da97610f7a3e55a048f13db9935633c87681bc99
+vendor/lib64/btaudio_offload_if.so|6c7e3297dc7e0aaf8aab839ffa563e5de51b7e12
+vendor/lib64/lib_bt_aptx.so|9fcf4b5e280ae8b556ceac300b90a9a7ccd14658
+vendor/lib64/lib_bt_ble.so|f45903ea3e4de670980daa4d0440dd73ea20a76e
+vendor/lib64/lib_bt_bundle.so|fae56894e2a391a0d3dfb23ae1a4d2f0582ff1fd
+vendor/lib64/lib_bt_lhdc.so|069c3deed98932c4fd00737455dd3ceadbb66981
+vendor/lib64/libbluetooth_audio_session_aidl_qti.so|24ad428cb0af08f2b5913f6b78cfcad3081be1d5
+vendor/lib64/libbluetooth_audio_session_qti.so|c8c9c0b2477b489974eb402da4950fc355bf869e
+vendor/lib64/libbluetooth_audio_session_qti_2_1.so|91e644ecec899fe9dfae4b66856e9cfaeee01aa3
+vendor/lib64/libbt-hidlclient.so|812c806bee5a50793b591e0fb2ccb7337d0eaf80
+vendor/lib64/libbtnv.so|7ffea4b6731817ad5cc3b9ee88bc401fb2584bce
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|f728d4f263a3ca7ef7667c353dc7e83ccc0c575f
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|7ee9664bb04c6c871d0fad659a7b07e2ef5c3956
+vendor/lib64/vendor.qti.hardware.bttpi-V2-ndk.so|c21fa87018eb48b3d7861b8b417cfeafe33cd56f
 
 # Charger - MiCharge from SPES MIUI
 vendor/bin/hw/vendor.xiaomi.hardware.micharge@1.0-service
