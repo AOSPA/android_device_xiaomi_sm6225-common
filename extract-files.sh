@@ -59,10 +59,8 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so)
+        vendor/lib/hw/*.so | vendor/lib/*.so | vendor/lib64/hw/*.so | vendor/lib64/*.so)
             "${PATCHELF}" --remove-needed libhwbinder.so "${2}"
-            ;;
-        vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so | vendor/lib/libbluetooth_audio_session_qti_2_1.so | vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so | vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so | vendor/lib64/libbluetooth_audio_session_qti_2_1.so | vendor/lib64/libqcrildataqos.so)
             "${PATCHELF}" --remove-needed libhidltransport.so "${2}"
             ;;
         vendor/lib64/mediadrm/libwvdrmengine.so|vendor/lib64/libwvhidl.so)
