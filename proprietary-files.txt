@@ -7,9 +7,6 @@ vendor/bin/loadalgo|7d3f0eda9dc6abf3973233dd10f7ef2529182b9c
 vendor/etc/init/vendor.qti.adsprpc-service.rc|54588df8e7da58c66838028d2284986b966c2d37
 vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
-vendor/lib/libadsp_default_listener.so|6b6d52ae9bc9de6a7ab28f77d085459e4cced338
-vendor/lib/libadsprpc.so|3a4fc7eb231bb7658ed47aca9aedf2990a9be9fe
-vendor/lib/vendor.qti.hardware.dsp@1.0.so|8fcb647d22144c0ce005eae37e05e786d2b045be
 vendor/lib64/libadsp_default_listener.so|33f44a23edf2cf734658e762a19dfc207b1921b8
 vendor/lib64/libadsprpc.so|b6ed660a4478b8cf3950fa942526e69ba2b5f310
 vendor/lib64/libloadalgo_stub.so|f544ef182d9cdc77e02eb8cc2a29ce4c02d0ddfc
@@ -29,9 +26,6 @@ vendor/lib/soundfx/libshoebox.so|214d5fefd21c617bdfa05255fe667127b4242556
 # libbatterylistener - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
 vendor/lib/libbatterylistener.so|71b4da03bdc4522b8829370093ebca3c90e86799
 vendor/lib64/libbatterylistener.so|ebd7be328d91c09eaf2073f78cb31560a882438b
-
-# Bluetooth - from SPES MIUI
-system_ext/bin/aptxalsOverlayCreateProject.sh|5f3a2a73fab7ed611b3481bbd9ac26ee56526032
 
 # Bluetooth - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|b0f73b4ac1a88607ec90b514b9602de423bb9be6
@@ -75,12 +69,7 @@ vendor/lib64/vendor.xiaomi.hardware.micharge@1.0.so
 # CDSP - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
 vendor/bin/cdsprpcd|2257675e907dce9ed4a328d66caae44096221bb8
 vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
-vendor/lib/libcdsp_default_listener.so|7253ad76e4d1ca9311b99cdbfe0e36c2b489afc3
-vendor/lib/libcdsprpc.so|6b82904772f244b4c491ec214d1c70b5ce85432d
 vendor/lib/libfastcrc.so|c375e138d9a25c65014e06f08b47e46e8bc88d43
-vendor/lib/libmdsprpc.so|2ccbd01cdbba304dda47a9ace532b33b7eac6398
-vendor/lib/libsdsprpc.so|7d32977d114262be32ac22daa25773d0c4dbd4f7
-vendor/lib/libsysmon_cdsp_skel.so|b0dd56ca83493e68dc7610d44045849bb3bd8c38
 vendor/lib64/libcdsp_default_listener.so|23a8dff8e8ab66d23c5de9aa3574dd3c64d113b4
 vendor/lib64/libcdsprpc.so|02921b47c4a0464ae3774fc130f2a6e1820e979f
 vendor/lib64/libmdsprpc.so|cbceda06c613a2e82acfc91a6e671f6d99be1ed9
@@ -157,7 +146,6 @@ vendor/lib64/vendor.qti.latency@2.1.so|bab1a65f6dd0bafb77f5de37c9b3a6ea99533b9b
 # Configstore - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|8faba5310d71eb9d67c5a5e0dbc22ba423f714e7
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede0250585a44b01d351bbc301d7a13cc3d783d
-vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|adae94cab65e5b91553ba8c76a4bdda7b4fdd1f6
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|2163df1cf52ef304f924bcc833947604036f4217
 
 # Data from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
@@ -269,8 +257,6 @@ vendor/lib64/vendor.qti.hardware.factory@1.0.so|26587947997ade3f691c58176d76a9a7
 vendor/lib64/vendor.qti.hardware.factory@1.1.so|845ecda4dfe0b2a0fded2d944c12f5ac70e4f081
 
 # FM - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
-vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|70aef41d8ced7832afc90dcf4ea83623e5e1c265
-vendor/lib/vendor.qti.hardware.fm@1.0.so|c036fbe16575a800994792431d10f6d1173cea26
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|084154df521025d3d6b4402cd8edcd06510e169c
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|2f01b221540ba0c75b34f373b0b1201f10f9f8c0
 
@@ -535,7 +521,6 @@ vendor/lib64/libhdcp2p2prov.so|61593eb0d25dc33a37269726edda61ec14a08da6
 vendor/lib64/libhdcpsrm.so|87e6f70a6478e46eebb2d159608affa7086d27f4
 
 # Secure element - from SPES MIUI
-vendor/lib/android.hardware.secure_element@1.0-impl.so|0947cc1c37e9155bb39de775e8cd03188369935a
 vendor/lib64/android.hardware.secure_element@1.0-impl.so|b206e48000c62c62bfda7b6b004c5ec0605fd481
 
 # SMC Invoke - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
@@ -575,7 +560,6 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so|8251cbf50d81918cb0ab298e4ed26d2174
 vendor/bin/ssr_diag|ed147282b28345b2c70fce3c9217a1fe251ae75f
 vendor/bin/ssr_setup|d099ceb33a16d090e17e5c9b0d6c0ca06f1f61d8
 vendor/bin/subsystem_ramdump|804a1b433124d5bd022e762e536b4ae5e6bb0f2b
-vendor/lib/libsubsystem_control.so|9f4d0578a9a9bfa22e2cf1b72a57c376cbdc60ce
 vendor/lib64/libsubsystem_control.so|eff7dd1899097f8e568e884dfc66ecc12259ae81
 
 # TFTP - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
