@@ -7,9 +7,6 @@ vendor/bin/loadalgo|7d3f0eda9dc6abf3973233dd10f7ef2529182b9c
 vendor/etc/init/vendor.qti.adsprpc-service.rc|54588df8e7da58c66838028d2284986b966c2d37
 vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
-vendor/lib/libadsp_default_listener.so|6b6d52ae9bc9de6a7ab28f77d085459e4cced338
-vendor/lib/libadsprpc.so|3a4fc7eb231bb7658ed47aca9aedf2990a9be9fe
-vendor/lib/vendor.qti.hardware.dsp@1.0.so|8fcb647d22144c0ce005eae37e05e786d2b045be
 vendor/lib64/libadsp_default_listener.so|33f44a23edf2cf734658e762a19dfc207b1921b8
 vendor/lib64/libadsprpc.so|b6ed660a4478b8cf3950fa942526e69ba2b5f310
 vendor/lib64/libloadalgo_stub.so|f544ef182d9cdc77e02eb8cc2a29ce4c02d0ddfc
@@ -27,29 +24,11 @@ vendor/lib/soundfx/libqcvirt.so|67da89cce00148dddeb4991697c9773376e39d8b
 vendor/lib/soundfx/libshoebox.so|214d5fefd21c617bdfa05255fe667127b4242556
 
 # libbatterylistener - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
-vendor/lib/libbatterylistener.so|71b4da03bdc4522b8829370093ebca3c90e86799
 vendor/lib64/libbatterylistener.so|ebd7be328d91c09eaf2073f78cb31560a882438b
-
-# Bluetooth - from SPES MIUI
-system_ext/bin/aptxalsOverlayCreateProject.sh|5f3a2a73fab7ed611b3481bbd9ac26ee56526032
 
 # Bluetooth - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|b0f73b4ac1a88607ec90b514b9602de423bb9be6
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
-vendor/lib/btaudio_offload_if.so|a6a47f8397048e0286d6291b1996d6af16cbe241
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|57f6e2f04b4c965baaf295b587ecfda0a1a73f26
-vendor/lib/hw/audio.bluetooth_qti.default.so|6ce26888f5b67e3e211a7cfe11554d842162ae07
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|7d9503fce83522d27bcdae531a4e0b320281f85f
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|571b93dc5978271f08a06a82e79d0fc1e0b06a38
-vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|6a950eaa3066fcba19e1d94a04e5823059a951a8
-vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|de18f44f36a89f8fb8c8b6f5d2e0bff73acaabea
-vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|b2d984f5f0ed37f70b63a22d4d351d38b5c5e372
-vendor/lib/libbluetooth_audio_session_qti.so|0b306bac29ba1beff74c9e84785f0e77efb4402c
-vendor/lib/libbluetooth_audio_session_qti_2_1.so|17366b19ce54e64e03b993e0289bc6b470a4525b
-vendor/lib/libbt-hidlclient.so|2648e2161b8423073a6449a4ec72b3fb33123e7a
-vendor/lib/libbtnv.so|887149605c2f810e9e996354d24d2fdd39d13e5c
-vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|42595c79d388cc5ba1c2f50a0caa20640d5d5708
-vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so|b719b696b47d5ba10547bc7a969dd527e61ba650
 vendor/lib64/btaudio_offload_if.so|7c3dfa53e70b7706f1a69e56a9dda109b6ac500c
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|9e870e95c101f27195970d184776b7e8d14ceb51
 vendor/lib64/hw/audio.bluetooth_qti.default.so|e7f73d58e5f2a8ba9bb6aad8c5637c10841b066b
@@ -75,12 +54,7 @@ vendor/lib64/vendor.xiaomi.hardware.micharge@1.0.so
 # CDSP - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
 vendor/bin/cdsprpcd|2257675e907dce9ed4a328d66caae44096221bb8
 vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
-vendor/lib/libcdsp_default_listener.so|7253ad76e4d1ca9311b99cdbfe0e36c2b489afc3
-vendor/lib/libcdsprpc.so|6b82904772f244b4c491ec214d1c70b5ce85432d
 vendor/lib/libfastcrc.so|c375e138d9a25c65014e06f08b47e46e8bc88d43
-vendor/lib/libmdsprpc.so|2ccbd01cdbba304dda47a9ace532b33b7eac6398
-vendor/lib/libsdsprpc.so|7d32977d114262be32ac22daa25773d0c4dbd4f7
-vendor/lib/libsysmon_cdsp_skel.so|b0dd56ca83493e68dc7610d44045849bb3bd8c38
 vendor/lib64/libcdsp_default_listener.so|23a8dff8e8ab66d23c5de9aa3574dd3c64d113b4
 vendor/lib64/libcdsprpc.so|02921b47c4a0464ae3774fc130f2a6e1820e979f
 vendor/lib64/libmdsprpc.so|cbceda06c613a2e82acfc91a6e671f6d99be1ed9
@@ -157,7 +131,6 @@ vendor/lib64/vendor.qti.latency@2.1.so|bab1a65f6dd0bafb77f5de37c9b3a6ea99533b9b
 # Configstore - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|8faba5310d71eb9d67c5a5e0dbc22ba423f714e7
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede0250585a44b01d351bbc301d7a13cc3d783d
-vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|adae94cab65e5b91553ba8c76a4bdda7b4fdd1f6
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|2163df1cf52ef304f924bcc833947604036f4217
 
 # Data from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
@@ -269,8 +242,6 @@ vendor/lib64/vendor.qti.hardware.factory@1.0.so|26587947997ade3f691c58176d76a9a7
 vendor/lib64/vendor.qti.hardware.factory@1.1.so|845ecda4dfe0b2a0fded2d944c12f5ac70e4f081
 
 # FM - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
-vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|70aef41d8ced7832afc90dcf4ea83623e5e1c265
-vendor/lib/vendor.qti.hardware.fm@1.0.so|c036fbe16575a800994792431d10f6d1173cea26
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|084154df521025d3d6b4402cd8edcd06510e169c
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|2f01b221540ba0c75b34f373b0b1201f10f9f8c0
 
@@ -421,22 +392,6 @@ vendor/bin/qrtr-cfg|20f88dc4a2eed437a916cde3d70ccd24a326031f
 vendor/bin/qrtr-lookup|c21c3d6a407357fd513f8ddf67cdbec969b53c9b
 vendor/bin/qrtr-ns|8d81f079428d5320b8da22bcab2ea84bd063ac7d
 vendor/etc/seccomp_policy/qti-systemd.policy|40bf52fb50a94eb8325beefe1927d9ba155fb02a
-vendor/lib/libidl.so|f91eebf917150514da6c111de6c66805bed3f6c8
-vendor/lib/libmdmdetect.so|0105abde3eead7e5292d1c0823327f0969751e88
-vendor/lib/libqcci_legacy.so|be14a3ba29cf4dc9fce1f7a51fb02cb775b16f1c
-vendor/lib/libqmi.so|f26879c0e391d943f76e6258c527ed334bc8f2c3
-vendor/lib/libqmi_cci.so|89851cb8312f59a533a8f78292c1c3092245249e
-vendor/lib/libqmi_client_helper.so|f663a1459a57cea8a26730f393babba5c76dbe36
-vendor/lib/libqmi_client_qmux.so|f7de8e4fc36d9023c5c9af636eef86dc05132522
-vendor/lib/libqmi_common_so.so|ff25aa6185ebf0700fd5c7d913f383bcd09ea866
-vendor/lib/libqmi_csi.so|e84ec0cb20effce5463049975f09a17bc416c9d0
-vendor/lib/libqmi_csvt_srvc.so|4f7890a0f6c80436341e639a3179b78495594612
-vendor/lib/libqmi_encdec.so|fd581ee983fea9c95b26c3ebb865a63a8ad3d43d
-vendor/lib/libqmi_legacy.so|7805ed3a940405d88d4b7dd29516c68ee19c5b08
-vendor/lib/libqmiservices.so|f0f7c0645f6d49215a21f3e4fc097e019071867f
-vendor/lib/libqsocket.so|bc42794c439b8a767e87b60071e3827a793218aa
-vendor/lib/libsmemlog.so|bae2c5f4cd959cf3f4e0f4420dfc8b4d0719f7f8
-vendor/lib/libsystem_health_mon.so|773607a534b86db7d01c6a5e05e29498a6d7992f
 vendor/lib64/libidl.so|ba2b39f28c7a8ee820fe6ff997a143274537e4cf
 vendor/lib64/libmdmdetect.so|facfd579c6b83d4b8877b537d3815d268d3126e4
 vendor/lib64/libqcci_legacy.so|661655067a0191dea25a4ef04d398a35add5a4fc
@@ -535,7 +490,6 @@ vendor/lib64/libhdcp2p2prov.so|61593eb0d25dc33a37269726edda61ec14a08da6
 vendor/lib64/libhdcpsrm.so|87e6f70a6478e46eebb2d159608affa7086d27f4
 
 # Secure element - from SPES MIUI
-vendor/lib/android.hardware.secure_element@1.0-impl.so|0947cc1c37e9155bb39de775e8cd03188369935a
 vendor/lib64/android.hardware.secure_element@1.0-impl.so|b206e48000c62c62bfda7b6b004c5ec0605fd481
 
 # SMC Invoke - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
@@ -545,14 +499,7 @@ vendor/lib64/libnative-api.so|fd6cf92e0347452288758b6ecc25b449535ecb61
 vendor/lib64/libqcbor.so|7da5294a577f5a71ede5b3804a026bf69bd025ee
 
 # Snapdragon Computer Vision Engine - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
-vendor/lib/libfastcvdsp_stub.so|7f27cee24281bc9bf4f08c6100cc66bd650d8efb
-vendor/lib/libscveCommon.so|4be56b846f71f4ba8032471abf9f02dc5b01810c
-vendor/lib/libscveCommon_stub.so|89e1a3d3302b6809ae4ca1d80f6c2e0cd3c3b752
-vendor/lib/libscveObjectSegmentation.so|b60b43377262ef6cc7882ff5cc49d35e4c516670
-vendor/lib/libscveObjectSegmentation_stub.so|f1a139933c16c2fde367506fe0419c15684a2d3c
-vendor/lib/libscveObjectTracker.so|26318c862d3d56596fe7208ebcc3ae1900f7d55f
 vendor/lib64/libfastcvdsp_stub.so|9813b36faa8029bdb358126c2996207fc7704d32
-vendor/lib/libscveObjectTracker_stub.so|cafdeed8fa0d51672806038065cf4ce38d442b6b
 vendor/lib64/libscveCommon.so|237b6432dfb9d7b6ac5d5522591db0972755bb5b
 vendor/lib64/libscveCommon_stub.so|bb5dc4c59d04e35020f4422ae3e19c8cfd0d1537
 vendor/lib64/libscveObjectSegmentation.so|2fea995b4481d61dd1076fd429cef03f726a3f28
@@ -575,7 +522,6 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so|8251cbf50d81918cb0ab298e4ed26d2174
 vendor/bin/ssr_diag|ed147282b28345b2c70fce3c9217a1fe251ae75f
 vendor/bin/ssr_setup|d099ceb33a16d090e17e5c9b0d6c0ca06f1f61d8
 vendor/bin/subsystem_ramdump|804a1b433124d5bd022e762e536b4ae5e6bb0f2b
-vendor/lib/libsubsystem_control.so|9f4d0578a9a9bfa22e2cf1b72a57c376cbdc60ce
 vendor/lib64/libsubsystem_control.so|eff7dd1899097f8e568e884dfc66ecc12259ae81
 
 # TFTP - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
