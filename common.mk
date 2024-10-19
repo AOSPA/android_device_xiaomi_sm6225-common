@@ -125,12 +125,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service_64 \
-    libcamera2ndk_vendor \
-    libdng_sdk.vendor \
-    libstdc++_vendor \
-    vendor.qti.hardware.camera.device@1.0.vendor \
-    vendor.qti.hardware.camera.postproc@1.0.vendor
+    android.hardware.camera.provider@2.4-service_64
 
 PRODUCT_VENDOR_PROPERTIES += \
     camera.disable_zsl_mode=1
@@ -174,9 +169,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Display
 TARGET_USE_AIDL_QTI_MEMTRACK := true
 
-PRODUCT_PACKAGES += \
-    android.frameworks.displayservice@1.0.vendor
-
 PRODUCT_VENDOR_PROPERTIES += \
     debug.sf.enable_gl_backpressure=0 \
     debug.sf.layer_caching_active_layer_timeout_ms=1000 \
@@ -195,9 +187,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.4.vendor \
-    android.hardware.drm-service.clearkey \
-    libcrypto_shim
+    android.hardware.drm-service.clearkey
 
 PRODUCT_VENDOR_PROPERTIES += \
     drm.service.enabled=true
@@ -302,11 +292,9 @@ PRODUCT_PACKAGES += \
     init.qti.media.sh
 
 PRODUCT_PACKAGES += \
-    libavservices_minijail.vendor \
     libgui_vendor \
     libstagefright_softomx.vendor \
-    libstagefright_softomx_plugin.vendor \
-    vendor.qti.hardware.capabilityconfigstore@1.0.vendor
+    libstagefright_softomx_plugin.vendor
 
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     media.settings.xml=/vendor/etc/media_profiles_vendor.xml \
@@ -410,7 +398,6 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.0-ScopedWakelock.vendor \
     android.hardware.sensors-service.xiaomi-multihal \
     libsensorndkbridge
 
