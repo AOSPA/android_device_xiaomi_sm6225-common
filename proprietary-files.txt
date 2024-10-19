@@ -23,9 +23,6 @@ vendor/lib/soundfx/libqcreverb.so|ee603092ab4e939eb289d35a17bddd37f7f9835f
 vendor/lib/soundfx/libqcvirt.so|67da89cce00148dddeb4991697c9773376e39d8b
 vendor/lib/soundfx/libshoebox.so|214d5fefd21c617bdfa05255fe667127b4242556
 
-# libbatterylistener - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
-vendor/lib64/libbatterylistener.so|ebd7be328d91c09eaf2073f78cb31560a882438b
-
 # Bluetooth - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|b0f73b4ac1a88607ec90b514b9602de423bb9be6
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
