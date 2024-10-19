@@ -65,11 +65,6 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        vendor/lib/hw/*.so | vendor/lib/*.so | vendor/lib64/hw/*.so | vendor/lib64/*.so)
-            [ "$2" = "" ] && return 0
-            "${PATCHELF}" --remove-needed libhwbinder.so "${2}"
-            "${PATCHELF}" --remove-needed libhidltransport.so "${2}"
-            ;;
         vendor/lib64/mediadrm/libwvdrmengine.so|vendor/lib64/libwvhidl.so)
             [ "$2" = "" ] && return 0
             grep -q "libcrypto_shim.so" "${2}" || "${PATCHELF}" --add-needed "libcrypto_shim.so" "${2}"
