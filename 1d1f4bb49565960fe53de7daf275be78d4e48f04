@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0ee4920_a818a92b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001069
+      },
+      "writtenOn": "2025-04-25T14:33:42Z",
+      "side": 1,
+      "message": "sm6225 uses modified A73 and modified A53 cores",
+      "revId": "1d1f4bb49565960fe53de7daf275be78d4e48f04",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
