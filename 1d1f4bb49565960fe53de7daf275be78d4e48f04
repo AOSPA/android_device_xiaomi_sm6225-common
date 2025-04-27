@@ -16,6 +16,23 @@
       "message": "sm6225 uses modified A73 and modified A53 cores",
       "revId": "1d1f4bb49565960fe53de7daf275be78d4e48f04",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b8d2340d_a4ab6d3a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2025-04-27T13:17:15Z",
+      "side": 1,
+      "message": "What do you think this is doing? \n\nA73 already uses -mcpu\u003dcortex-a53 because you have to optimize instruction order for in-order processors for best performance on big.LITTLE.\n\nhttps://github.com/AOSPA/android_build_soong/blob/vauxite/cc/config/arm64_device.go#L142",
+      "revId": "1d1f4bb49565960fe53de7daf275be78d4e48f04",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
