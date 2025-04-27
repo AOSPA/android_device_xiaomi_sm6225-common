@@ -50,6 +50,23 @@
       "message": "this not give impact on perfomance.",
       "revId": "b9d60048530684990b6f965be17526a70b44cbe9",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3aec05b_64d3f61e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000942
+      },
+      "writtenOn": "2025-04-27T15:41:00Z",
+      "side": 1,
+      "message": "Why switch to generic? Interesting question. Or why do we need cortex-a9?\nThis is nothing.",
+      "revId": "b9d60048530684990b6f965be17526a70b44cbe9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
