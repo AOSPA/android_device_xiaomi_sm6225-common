@@ -34,6 +34,24 @@
       "parentUuid": "e6b25e7f_8885626f",
       "revId": "0e65daf81dcac5ec0cdc88d490652f99fef25b0f",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a0a0755c_31b3f641",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001069
+      },
+      "writtenOn": "2025-04-28T18:44:47Z",
+      "side": 1,
+      "message": "these props are taken from https://git.codelinaro.org/clo/la/platform/vendor/qcom/bengal/-/blob/LA.UM.9.15.2.c1-13500-KAMORTA.QSSI14.0/system.prop?ref_type\u003dtags#L120\nOther devices can search for these props too",
+      "parentUuid": "6aca0454_ab076dec",
+      "revId": "0e65daf81dcac5ec0cdc88d490652f99fef25b0f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
