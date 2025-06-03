@@ -87,6 +87,24 @@
       "message": "What significant change do these props bring?",
       "revId": "0e65daf81dcac5ec0cdc88d490652f99fef25b0f",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "06cc1850_c7987177",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001069
+      },
+      "writtenOn": "2025-06-03T14:24:37Z",
+      "side": 1,
+      "message": "Without these props: https://imgur.com/a/cYYzO0V\nWith these props: https://imgur.com/a/qQMOlLW\n29% improvement in download speed, 46% improvement in upload speed, 22% improvement in jitter and other improvements (ping under load)\nOn higher speeds and signal strength results may differ",
+      "parentUuid": "44a82c11_e32a17d9",
+      "revId": "0e65daf81dcac5ec0cdc88d490652f99fef25b0f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
