@@ -299,6 +299,7 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw \
     libc2dcolorconvert \
+    init.qti.media.rc \
     init.qti.media.sh
 
 PRODUCT_PACKAGES += \
