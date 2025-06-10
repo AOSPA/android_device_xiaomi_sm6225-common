@@ -470,9 +470,6 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.usb.config=mtp,adb
 endif
 
-PRODUCT_VENDOR_PROPERTIES += \
-    ro.usb.uvc.enabled=true
-
 PRODUCT_HAS_GADGET_HAL := true
 
 PRODUCT_ODM_PROPERTIES += \
